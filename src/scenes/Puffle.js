@@ -22,8 +22,10 @@
 // import flash.display.MovieClip;
 // import flash.ui.Keyboard;
 // import flash.utils.getTimer;
-import {CreateCircle,b2CreateCircleShape, b2BodyDef, b2Body_SetType, b2Body_GetPosition, b2CreateBody, b2Circle, b2ShapeId, b2Vec2, b2ShapeDef, b2Filter, b2DefaultFilter, b2Body_SetUserData, CreateBoxPolygon, b2DefaultBodyDef, DYNAMIC, pxmVec2, AddSpriteToWorld, b2Body_GetAngularVelocity, b2Body_ApplyTorque, b2Body_GetLinearVelocity, b2Body_SetAngularDamping, b2Body_SetAngularVelocity, b2Body_SetSleepThreshold, b2Joint_WakeBodies, b2Body_SetAwake} from "../../node_modules/phaser-box2d/dist/PhaserBox2D.js";
+// import { CreateCircle, b2CreateCircleShape, b2BodyDef, b2Body_SetType, b2Body_GetPosition, b2CreateBody, b2Circle, b2ShapeId, b2Vec2, b2ShapeDef, b2Filter, b2DefaultFilter, b2Body_SetUserData, CreateBoxPolygon, b2DefaultBodyDef, DYNAMIC, pxmVec2, AddSpriteToWorld, b2Body_GetAngularVelocity, b2Body_ApplyTorque, b2Body_GetLinearVelocity, b2Body_SetAngularDamping, b2Body_SetAngularVelocity, b2Body_SetSleepThreshold, b2Joint_WakeBodies, b2Body_SetAwake } from "../../node_modules/phaser-box2d/dist/PhaserBox2D.js";
+import { CreateCircle, b2CreateCircleShape, b2BodyDef, b2Body_SetType, b2Body_GetPosition, b2CreateBody, b2Circle, b2ShapeId, b2Vec2, b2ShapeDef, b2Filter, b2DefaultFilter, b2Body_SetUserData, CreateBoxPolygon, b2DefaultBodyDef, DYNAMIC, pxmVec2, AddSpriteToWorld, b2Body_GetAngularVelocity, b2Body_ApplyTorque, b2Body_GetLinearVelocity, b2Body_SetAngularDamping, b2Body_SetAngularVelocity, b2Body_SetSleepThreshold, b2Joint_WakeBodies, b2Body_SetAwake } from "phaser-box2d/dist/PhaserBox2D.js";
 // import Phaser from "phaser";
+// import { b } from "phaser-box2d";
 /* END-USER-IMPORTS */
 
 export default class Puffle extends Phaser.GameObjects.Image {
@@ -69,7 +71,7 @@ export default class Puffle extends Phaser.GameObjects.Image {
 
 		this.__airtimeStart = 0;
 
-		this.__colors = new Array("blue","green","pink","black","purple","red","yellow","white","orange","brown");
+		this.__colors = new Array("blue", "green", "pink", "black", "purple", "red", "yellow", "white", "orange", "brown");
 
 		this.__currentColorIndex = null; // int
 		this.world = null;
@@ -89,8 +91,7 @@ export default class Puffle extends Phaser.GameObjects.Image {
 
 	/* START-USER-CODE */
 	get_instance() { //puffle instance
-		if(this.__instance == null)
-		{
+		if (this.__instance == null) {
 			this.__instance = new Puffle();
 		}
 		return this.__instance;
@@ -168,31 +169,27 @@ export default class Puffle extends Phaser.GameObjects.Image {
 		var leftDown = this.cursors.left.isDown || this.keyA.isDown;
 		var rightDown = this.cursors.right.isDown || this.keyD.isDown;
 		var keyDown = leftDown || rightDown;
-		if(keyDown){
+		if (keyDown) {
 
 			console.log("right: %s, left: %s", rightDown, leftDown)
 		}
 
 		const bodyId = this.__body.bodyId
-		if(keyDown)
-		{
+		if (keyDown) {
 			this.isActivelyRolling = true;
-			if(leftDown && b2Body_GetAngularVelocity(bodyId) < this.MAX_ANGULAR_VELOCITY)
-			{
-			b2Body_ApplyTorque(bodyId,this.TORQUE_PER_UPDATE);
-			// this.puffleColors.scaleX = 1;
-			// this.ball.scaleX = 1;
+			if (leftDown && b2Body_GetAngularVelocity(bodyId) < this.MAX_ANGULAR_VELOCITY) {
+				b2Body_ApplyTorque(bodyId, this.TORQUE_PER_UPDATE);
+				// this.puffleColors.scaleX = 1;
+				// this.ball.scaleX = 1;
 			}
-			if(rightDown && b2Body_GetAngularVelocity(bodyId) > -this.MAX_ANGULAR_VELOCITY)
-			{
-			b2Body_ApplyTorque(bodyId,-this.TORQUE_PER_UPDATE);
-			// this.puffleColors.scaleX = -1;
-			// this.ball.scaleX = -1;
+			if (rightDown && b2Body_GetAngularVelocity(bodyId) > -this.MAX_ANGULAR_VELOCITY) {
+				b2Body_ApplyTorque(bodyId, -this.TORQUE_PER_UPDATE);
+				// this.puffleColors.scaleX = -1;
+				// this.ball.scaleX = -1;
 			}
 			// this.puffleColors.rotation = this.__body.GetAngularVelocity() * 2 + this.__puffleRotationOffset;
 		}
-		else
-		{
+		else {
 			this.isActivelyRolling = false;
 			// if(this.puffleColors.rotation > this.__puffleRotationOffset)
 			// {
@@ -203,11 +200,11 @@ export default class Puffle extends Phaser.GameObjects.Image {
 			// this.puffleColors.rotation += 2;
 			// }
 			const linear = b2Body_GetLinearVelocity(bodyId)
-			vel = Math.max(0.5,Math.min(1,Math.min(Math.abs(b2Body_GetAngularVelocity(bodyId)),Math.abs(Math.hypot(linear.x, linear.y)))));
+			vel = Math.max(0.5, Math.min(1, Math.min(Math.abs(b2Body_GetAngularVelocity(bodyId)), Math.abs(Math.hypot(linear.x, linear.y)))));
 			b2Body_SetAngularVelocity(bodyId, b2Body_GetAngularVelocity(bodyId) * vel)
 			// _loc4_ = Math.max(0.5,Math.min(1,Math.min(Math.abs(this.__body.GetAngularVelocity()),Math.abs(this.__body.GetLinearVelocity().Length()))));
-            // this.__body.SetAngularVelocity(this.__body.GetAngularVelocity() * _loc4_);
-         
+			// this.__body.SetAngularVelocity(this.__body.GetAngularVelocity() * _loc4_);
+
 		}
 	}
 
