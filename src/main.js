@@ -1,6 +1,5 @@
 import Level from "./scenes/Level.js";
 import Preload from "./scenes/Preload.js";
-// import * as Box from "./PhaserBox2D.js";
 
 window.addEventListener('load', function () {
 

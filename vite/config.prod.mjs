@@ -18,7 +18,7 @@ const phasermsg = () => {
 };
 
 export default defineConfig({
-    base: './',
+    base: '/Phaserescape/',
     logLevel: 'warn',
 
     build: {
