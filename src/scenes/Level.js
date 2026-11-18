@@ -93,7 +93,7 @@ export default class Level extends Phaser.Scene {
 		// AddSpriteToWorld(worldId, this.ball, ball)
 
 		// create floor
-        CreateBoxPolygon({ worldId, type: STATIC, bodyDef: b2DefaultBodyDef(), position: pxmVec2(640, -750), size: new b2Vec2(20, 1), friction: 0.5 });
+        CreateBoxPolygon({ worldId, type: STATIC, bodyDef: b2DefaultBodyDef(), position: pxmVec2(640, -740), size: new b2Vec2(20, 1), friction: 0.5 });
 
 
 	}
