@@ -22,7 +22,7 @@
 // import flash.display.MovieClip;
 // import flash.ui.Keyboard;
 // import flash.utils.getTimer;
-import {CreateCircle,b2CreateCircleShape, b2BodyDef, b2Body_SetType, b2Body_GetPosition, b2CreateBody, b2Circle, b2ShapeId, b2Vec2, b2ShapeDef, b2Filter, b2DefaultFilter, b2Body_SetUserData, CreateBoxPolygon, b2DefaultBodyDef, DYNAMIC, pxmVec2, AddSpriteToWorld, b2Body_GetAngularVelocity, b2Body_ApplyTorque, b2Body_GetLinearVelocity, b2Body_SetAngularDamping, b2Body_SetAngularVelocity} from "../../node_modules/phaser-box2d/dist/PhaserBox2D.js";
+import {CreateCircle,b2CreateCircleShape, b2BodyDef, b2Body_SetType, b2Body_GetPosition, b2CreateBody, b2Circle, b2ShapeId, b2Vec2, b2ShapeDef, b2Filter, b2DefaultFilter, b2Body_SetUserData, CreateBoxPolygon, b2DefaultBodyDef, DYNAMIC, pxmVec2, AddSpriteToWorld, b2Body_GetAngularVelocity, b2Body_ApplyTorque, b2Body_GetLinearVelocity, b2Body_SetAngularDamping, b2Body_SetAngularVelocity, b2Body_SetSleepThreshold} from "../../node_modules/phaser-box2d/dist/PhaserBox2D.js";
 // import Phaser from "phaser";
 /* END-USER-IMPORTS */
 
@@ -126,10 +126,12 @@ export default class Puffle extends Phaser.GameObjects.Image {
 			position: new pxmVec2(this.x, -this.y),
 			restitution: 0.2,
 			friction: 1.5,
-			density: 3,
-			radius: 1
+			// density: 3,
+			radius: 1,
 
 		})
+
+		b2Body_SetSleepThreshold(ball.bodyId, -1)
 		this.__body = ball
 		AddSpriteToWorld(this.world, this, ball)
 		// filterdata.categoryBits = this.
