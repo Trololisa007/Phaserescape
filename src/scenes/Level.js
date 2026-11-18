@@ -8,8 +8,8 @@ import Puffle from "./Puffle.js";
 // import {CreateWorld, b2DefaultWorldDef, CreateBoxPolygon, SpriteToBox, AddSpriteToWorld, STATIC, b2DefaultBodyDef, pxmVec2, b2Vec2, WorldStep, UpdateWorldSprites} from '../physics.js';
 // import {CreateWorld, b2DefaultWorldDef, CreateBoxPolygon, SpriteToBox, AddSpriteToWorld, STATIC, b2DefaultBodyDef, pxmVec2, b2Vec2, WorldStep, UpdateWorldSprites} from '../PhaserBox2D.js';
 // import * as Box from '../PhaserBox2D.js'
-// import {CreateCircle,DYNAMIC, CreateWorld, b2DefaultWorldDef, CreateBoxPolygon, SpriteToBox, AddSpriteToWorld, STATIC, b2DefaultBodyDef, pxmVec2, b2Vec2, WorldStep, UpdateWorldSprites } from '../../node_modules/phaser-box2d/dist/PhaserBox2D.js';
-import {CreateCircle,DYNAMIC, CreateWorld, b2DefaultWorldDef, CreateBoxPolygon, SpriteToBox, AddSpriteToWorld, STATIC, b2DefaultBodyDef, pxmVec2, b2Vec2, WorldStep, UpdateWorldSprites } from 'phaser-box2d/dist/PhaserBox2D.js';
+import {CreateCircle,DYNAMIC, CreateWorld, b2DefaultWorldDef, CreateBoxPolygon, SpriteToBox, AddSpriteToWorld, STATIC, b2DefaultBodyDef, pxmVec2, b2Vec2, WorldStep, UpdateWorldSprites } from '../../node_modules/phaser-box2d/dist/PhaserBox2D.js';
+// import {CreateCircle,DYNAMIC, CreateWorld, b2DefaultWorldDef, CreateBoxPolygon, SpriteToBox, AddSpriteToWorld, STATIC, b2DefaultBodyDef, pxmVec2, b2Vec2, WorldStep, UpdateWorldSprites } from 'phaser-box2d/dist/PhaserBox2D.js';
 /* END-USER-IMPORTS */
 
 export default class Level extends Phaser.Scene {
