@@ -10,6 +10,16 @@
                 "url": "assets/dino.png",
                 "key": "dino",
                 "type": "image"
+            },
+            {
+                "url": "assets/Level1.png",
+                "type": "image",
+                "key": "Level1"
+            },
+            {
+                "url": "assets/Level1Ground.png",
+                "type": "image",
+                "key": "Level1Ground"
             }
         ]
     },

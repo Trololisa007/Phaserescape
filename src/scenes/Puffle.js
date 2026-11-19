@@ -3,159 +3,90 @@
 
 /* START OF COMPILED CODE */
 
+import { b2CreateBody } from "../box2d/PhaserBox2D.js";
+import { b2DefaultBodyDef } from "../box2d/PhaserBox2D.js";
+import { b2BodyType } from "../box2d/PhaserBox2D.js";
+import { pxmVec2 } from "../box2d/PhaserBox2D.js";
+import { AddSpriteToWorld } from "../box2d/PhaserBox2D.js";
+import { b2CreateCircleShape } from "../box2d/PhaserBox2D.js";
+import { b2DefaultShapeDef } from "../box2d/PhaserBox2D.js";
+import { b2Circle } from "../box2d/PhaserBox2D.js";
+import { pxm } from "../box2d/PhaserBox2D.js";
+import { b2Vec2 } from "../box2d/PhaserBox2D.js";
 /* START-USER-IMPORTS */
-// import Box2D.Collision.Shapes.b2CircleShape;
-// import Box2D.Dynamics.Contacts.b2ContactEdge; 
-// import Box2D.Dynamics.b2Body;
-// import Box2D.Dynamics.b2BodyDef;
-// import Box2D.Dynamics.b2FilterData;
-// import Box2D.Dynamics.b2Fixture;
-// import com.clubpenguin.games.collisioncourse.animation.AnimationStackManager;
-// import com.clubpenguin.games.collisioncourse.animation.PuffleAir;
-// import com.clubpenguin.games.collisioncourse.animation.PuffleAirIn;
-// import com.clubpenguin.games.collisioncourse.animation.PuffleAirOut;
-// import com.clubpenguin.games.collisioncourse.animation.PuffleIdle;
-// import com.clubpenguin.games.collisioncourse.hud.IVisibleForceBody;
-// import com.clubpenguin.games.collisioncourse.physics.ForceArrow;
-// import com.clubpenguin.games.collisioncourse.physics.Simulation;
-// import com.clubpenguin.games.collisioncourse.util.KeyStates;
-// import flash.display.MovieClip;
-// import flash.ui.Keyboard;
-// import flash.utils.getTimer;
-import {CreateCircle,b2CreateCircleShape, b2BodyDef, b2Body_SetType, b2Body_GetPosition, b2CreateBody, b2Circle, b2ShapeId, b2Vec2, b2ShapeDef, b2Filter, b2DefaultFilter, b2Body_SetUserData, CreateBoxPolygon, b2DefaultBodyDef, DYNAMIC, pxmVec2, AddSpriteToWorld, b2Body_GetAngularVelocity, b2Body_ApplyTorque, b2Body_GetLinearVelocity, b2Body_SetAngularDamping, b2Body_SetAngularVelocity} from "../../node_modules/phaser-box2d/dist/PhaserBox2D.js";
-// import Phaser from "phaser";
+import { b2Body_GetAngularVelocity } from "../box2d/PhaserBox2D.js";
+import { b2Body_GetLinearVelocity } from "../box2d/PhaserBox2D.js";
+import { b2Body_ApplyTorque } from "../box2d/PhaserBox2D.js";
+import { b2Body_SetAngularVelocity } from "../box2d/PhaserBox2D.js";
+import { b2Shape_GetCircle } from "../box2d/PhaserBox2D.js";
+import { b2Shape_SetCircle } from "../box2d/PhaserBox2D.js";
+import { GetWorldScale } from "../box2d/PhaserBox2D.js";
 /* END-USER-IMPORTS */
 
 export default class Puffle extends Phaser.GameObjects.Image {
 
-	constructor(scene, x, y, texture, frame) {
+	constructor(scene, x, y, texture, frame, xargs) {
 		super(scene, x ?? 0, y ?? 0, texture || "ball", frame);
 
+		// ball
+		const ball = b2CreateBody(this.scene.worldId, { 
+			...b2DefaultBodyDef(), 
+			type: b2BodyType.b2_dynamicBody, 
+			position: pxmVec2(this.x, -this.y), 
+			sleepThreshold: -1, 
+			isAwake: true
+		});
+
+		// add ball to this
+		AddSpriteToWorld(this.scene.worldId, this, { bodyId: ball });
+
+		// shape
+		const shape = b2CreateCircleShape(ball, { 
+			...b2DefaultShapeDef(), 
+			friction: 1.5, 
+			restitution: 0.2, 
+			density: 3
+		}, new b2Circle(new b2Vec2(pxm(0), pxm(0)), pxm(64.5)));
+
+		this.ball = ball;
+
 		/* START-USER-CTR-CODE */
-		this.x = x
-		this.y = y
-
-		this.__instance = null; //puffle instance
-
-		this.VELOCITY_FLIP_AMOUNT = 1;
-
-		this.SCALE = 0.8;
-
-		this.MAX_ANGULAR_VELOCITY = 16;
-
-		this.MAX_MOUSE_SCALE_DISTANCE = 100;
-
-		this.TORQUE_PER_UPDATE = 160;
-
-		this.__body = null; //b2Body
-
-		this.ball_clip = null; //movie clip
-
-		this.puffleColors = null; //movieclip
-
-		this.puffleAnimations = null; //movieclip
-
-		this.isActivelyRolling = false;
-
-		this.airtimeBeforeAnimation = 50;
-
-		this.__inAir = null; // bool
-
-		this.__animationManager = null; //animation stack manager
-
-		this.__forceArrow = null; //forcearrow;
-
-		this.__puffleRotationOffset = 0;
-
-		this.__airtimeStart = 0;
-
-		this.__colors = new Array("blue","green","pink","black","purple","red","yellow","white","orange","brown");
-
-		this.__currentColorIndex = null; // int
-		this.world = null;
-
-
-
-		// // more constructor things
-		// this.setColor("blue");
-		// this.__animationManager = new AnimationStackManager(this.puffleAnimations);
-		// this.__animationManager.enqueueAnimation(PuffleIdle);
-
+		this.radius = b2Shape_GetCircle(ball).radius
 		this.cursors = this.scene.input.keyboard.createCursorKeys()
 		this.keyD = this.scene.input.keyboard.addKey(Phaser.Input.Keyboard.KeyCodes.D);
 		this.keyA = this.scene.input.keyboard.addKey(Phaser.Input.Keyboard.KeyCodes.A);
+		this.MAX_ANGULAR_VELOCITY = 16 //* b2GetLengthUnitsPerMeter()
+		this.TORQUE_PER_UPDATE = 160  //* (b2GetLengthUnitsPerMeter() **2)
+		this.isActivelyRolling = false
+
+		this.SCALE = 0.8
+		this.scene.events.on(Phaser.Scenes.Events.UPDATE, this.update, this);
+		this.once(Phaser.GameObjects.Events.DESTROY, () => {
+			this.scene.events.off(Phaser.Scenes.Events.UPDATE, this.update, this);
+		});
+		this.updateScale()
+
 		/* END-USER-CTR-CODE */
 	}
 
+	/** @type {b2BodyId} */
+	ball;
+	/** @type {number} */
+	scale = 0.8;
+
 	/* START-USER-CODE */
-	get_instance() { //puffle instance
-		if(this.__instance == null)
-		{
-			this.__instance = new Puffle();
-		}
-		return this.__instance;
+
+	updateScale(scale = this.scale) {
+		this.SCALE = scale
+		const circle = new b2Circle(new b2Vec2(0,0), this.radius*this.SCALE)
+		b2Shape_SetCircle(this.ball, circle)
+		this.setScale(this.SCALE, this.SCALE)
 	}
-
-	get_body() {
-		return this.__body;
-	}
-
-	init(world_id) {
-		// const ball = this.add.image(this.x, this.y, "ball");
-		// this.ball = ball
-		this.world = world_id
-		// var body = new b2BodyDef();
-		// body.position = new b2Vec2(-1,-1);
-		// this.#__body = b2CreateBody(this.#world, body) // type bodyId
-		// var fixture = this.#__body.CreateFixture2(new b2CircleShape(SCALE),3);
-		// var circle = new b2Circle(new b2Vec2(0,0), this.SCALE) // create circle with radius SCALE, type b2Circle
-		// var shape = new b2ShapeDef() // type shapeDef
-		// shape.restitution = 0.2;
-		// shape.friction = 1.5;
-		// var fixture = b2CreateCircleShape(this.#__body,shape, circle)
-		// var filterdata = b2DefaultFilter()
-		// var circle = SpriteToCircle(this.#world, this.ball, {
-		// 	restitution: 0.2,
-		// 	friction: 1.5
-		// })
-
-		var ball = CreateCircle({
-			worldId: this.world,
-			bodyDef: new b2DefaultBodyDef(),
-			type: DYNAMIC,
-			position: new pxmVec2(this.x, -this.y),
-			restitution: 0.2,
-			friction: 1.5,
-			density: 3,
-			radius: 1
-
-		})
-		this.__body = ball
-		AddSpriteToWorld(this.world, this, ball)
-		// filterdata.categoryBits = this.
-		// filterdata.categoryBits = Simulation.CATEGORY_DYNAMIC;
-		// fixture.SetFilterData(filterdata);
-		// this.__body.SetUserData(this);
-		// b2Body_SetUserData(this.__body, this)
-		this.scaleX = this.SCALE;
-		this.scaleY = this.SCALE;
-
-	}
-
-	// public function setColor(param1:String) : void
-	// {
-	// 	this.puffleColors.gotoAndStop(param1);
-	// 	this.puffleAnimations = this.puffleColors.puffleAnimations;
-	// 	if(this.__animationManager)
-	// 	{
-	// 		this.__animationManager.setTarget(this.puffleAnimations);
-	// 	}
-	// }
 
 	update(time, delta) {
-		if (!this.__body) {
-			console.warn("Puffle physics body not initialized");
-			return;
+		// console.log(time)
+		if (!this.ball) {
+			return
 		}
 		var vel = NaN;
 		// this.updateAnimationState();
@@ -167,11 +98,11 @@ export default class Puffle extends Phaser.GameObjects.Image {
 		var rightDown = this.cursors.right.isDown || this.keyD.isDown;
 		var keyDown = leftDown || rightDown;
 		if(keyDown){
+			console.log("right: %s, left: %s", rightDown, leftDown, time)
 
-			console.log("right: %s, left: %s", rightDown, leftDown)
 		}
 
-		const bodyId = this.__body.bodyId
+		const bodyId = this.ball;
 		if(keyDown)
 		{
 			this.isActivelyRolling = true;
@@ -205,103 +136,9 @@ export default class Puffle extends Phaser.GameObjects.Image {
 			b2Body_SetAngularVelocity(bodyId, b2Body_GetAngularVelocity(bodyId) * vel)
 			// _loc4_ = Math.max(0.5,Math.min(1,Math.min(Math.abs(this.__body.GetAngularVelocity()),Math.abs(this.__body.GetLinearVelocity().Length()))));
             // this.__body.SetAngularVelocity(this.__body.GetAngularVelocity() * _loc4_);
-         
+
 		}
 	}
-
-	// private function updateAnimationState() : void
-	// {
-	// 	var _loc4_:b2Fixture = null;
-	// 	var _loc1_:Number = getTimer();
-	// 	var _loc2_:Boolean = false;
-	// 	var _loc3_:b2ContactEdge = this.body.GetContactList();
-	// 	while(_loc3_)
-	// 	{
-	// 		if(_loc3_.contact.GetFixtureA().GetBody() == this.body)
-	// 		{
-	// 		_loc4_ = _loc3_.contact.GetFixtureB();
-	// 		}
-	// 		if(_loc3_.contact.GetFixtureB().GetBody() == this.body)
-	// 		{
-	// 		_loc4_ = _loc3_.contact.GetFixtureA();
-	// 		}
-	// 		if(Boolean(_loc4_) && (Boolean(_loc4_.GetFilterData().categoryBits == Simulation.CATEGORY_STATIC || _loc4_.GetFilterData().categoryBits == Simulation.CATEGORY_DYNAMIC)) && !_loc4_.IsSensor())
-	// 		{
-	// 		_loc2_ = true;
-	// 		}
-	// 		_loc3_ = _loc3_.next;
-	// 	}
-	// 	if(_loc2_)
-	// 	{
-	// 		this.__airtimeStart = getTimer();
-	// 		this.__animationManager.removeAnimation(PuffleAirIn);
-	// 		this.__animationManager.removeAnimation(PuffleAir);
-	// 		this.__inAir = false;
-	// 	}
-	// 	else if(_loc1_ - this.__airtimeStart > this.airtimeBeforeAnimation && !this.__inAir)
-	// 	{
-	// 		this.__animationManager.enqueueAnimation(PuffleAirOut);
-	// 		this.__animationManager.enqueueAnimation(PuffleAir);
-	// 		this.__animationManager.enqueueAnimation(PuffleAirIn);
-	// 		this.__inAir = true;
-	// 	}
-	// 	this.__animationManager.playCurrentAnimation();
-	// }
-
-	// public function changeScale(param1:Number) : void
-	// {
-	// 	var _loc2_:b2CircleShape = b2CircleShape(this.__body.GetFixtureList().GetShape());
-	// 	_loc2_.SetRadius(param1);
-	// 	this.scaleX = param1;
-	// 	this.scaleY = param1;
-	// }
-
-	// public function destroy() : void
-	// {
-	// 	__instance = null;
-	// }
-
-	// public function get forceArrow() : ForceArrow
-	// {
-	// 	return this.__forceArrow;
-	// }
-
-	// public function set forceArrow(param1:ForceArrow) : void
-	// {
-	// 	this.__forceArrow = param1;
-	// }
-
-	// public function get puffleRotationOffset() : Number
-	// {
-	// 	return this.__puffleRotationOffset;
-	// }
-
-	// public function set puffleRotationOffset(param1:Number) : void
-	// {
-	// 	this.__puffleRotationOffset = param1;
-	// }
-
-	// public function set animationManager(param1:AnimationStackManager) : void
-	// {
-	// 	this.__animationManager = param1;
-	// }
-
-	// public function get animationManager() : AnimationStackManager
-	// {
-	// 	return this.__animationManager;
-	// }
-
-	// public function getNextColor() : String
-	// {
-	// 	return this.__colors[++this.__currentColorIndex % 10];
-	// }
-
-	// public function get colors() : Array
-	// {
-	// 	return this.__colors;
-	// }
-
-	// Write your code here.
 
 	/* END-USER-CODE */
 }

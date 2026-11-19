@@ -1,12 +1,11 @@
 import Level from "./scenes/Level.js";
 import Preload from "./scenes/Preload.js";
-// import * as Box from "./PhaserBox2D.js";
 
 window.addEventListener('load', function () {
 
 	var game = new Phaser.Game({
-		width: 1280,
-		height: 720,
+		width: 1520,
+		height: 960,
 		type: Phaser.AUTO,
         backgroundColor: "#242424",
 		scale: {
@@ -14,6 +13,8 @@ window.addEventListener('load', function () {
 			autoCenter: Phaser.Scale.CENTER_BOTH
 		}
 	});
+
+	// Phaser.Core.Config.apply({target: 14, limit: 14})
 
 	game.scene.add("Preload", Preload);
 	game.scene.add("Level", Level);
