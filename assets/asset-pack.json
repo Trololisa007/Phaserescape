@@ -2,9 +2,78 @@
     "section1": {
         "files": [
             {
+                "url": "assets/1foreground.png",
+                "type": "image",
+                "key": "1foreground"
+            },
+            {
+                "url": "assets/images/1foreground.png",
+                "type": "image",
+                "key": "1foreground_1"
+            },
+            {
+                "url": "assets/images/2.png",
+                "type": "image",
+                "key": "2"
+            },
+            {
+                "url": "assets/images/20.png",
+                "type": "image",
+                "key": "20"
+            },
+            {
+                "url": "assets/images/91.png",
+                "type": "image",
+                "key": "91"
+            },
+            {
+                "url": "assets/animations.json",
+                "type": "animation",
+                "key": "animations"
+            },
+            {
                 "url": "assets/ball.png",
                 "type": "image",
                 "key": "ball"
+            },
+            {
+                "url": "assets/images/ball.png",
+                "type": "image",
+                "key": "ball_1"
+            },
+            {
+                "url": "assets/images/ballShadowOver.png",
+                "type": "image",
+                "key": "ballShadowOver"
+            },
+            {
+                "url": "assets/images/ballShadowUnder.png",
+                "type": "image",
+                "key": "ballShadowUnder"
+            },
+            {
+                "type": "multiatlas",
+                "url": "assets/atlas/bling.json",
+                "path": "assets/atlas",
+                "key": "bling"
+            },
+            {
+                "type": "multiatlas",
+                "url": "assets/atlas/buttons.json",
+                "path": "assets/atlas",
+                "key": "buttons"
+            },
+            {
+                "type": "multiatlas",
+                "url": "assets/atlas/collectables.json",
+                "path": "assets/atlas",
+                "key": "collectables"
+            },
+            {
+                "type": "multiatlas",
+                "url": "assets/atlas/colorSplashArt.json",
+                "path": "assets/atlas",
+                "key": "colorSplashArt"
             },
             {
                 "url": "assets/dino.png",
@@ -12,14 +81,203 @@
                 "type": "image"
             },
             {
+                "url": "assets/images/exitOver.png",
+                "type": "image",
+                "key": "exitOver"
+            },
+            {
+                "url": "assets/images/finish.png",
+                "type": "image",
+                "key": "finish"
+            },
+            {
+                "url": "assets/images/foreground2.png",
+                "type": "image",
+                "key": "foreground2"
+            },
+            {
+                "url": [
+                    "assets/audio/gameplayLoop.mp3"
+                ],
+                "type": "audio",
+                "key": "gameplayLoop"
+            },
+            {
+                "url": [
+                    "assets/audio/hint.mp3"
+                ],
+                "type": "audio",
+                "key": "hint"
+            },
+            {
+                "url": "assets/images/hintMask.png",
+                "type": "image",
+                "key": "hintMask"
+            },
+            {
+                "url": [
+                    "assets/audio/intro.mp3"
+                ],
+                "type": "audio",
+                "key": "intro"
+            },
+            {
+                "url": [
+                    "assets/audio/key.mp3"
+                ],
+                "type": "audio",
+                "key": "key"
+            },
+            {
+                "url": "assets/images/Level1.png",
+                "type": "image",
+                "key": "Level"
+            },
+            {
                 "url": "assets/Level1.png",
                 "type": "image",
                 "key": "Level1"
             },
             {
+                "url": "assets/gShapes/Level1ChallengeGround.png",
+                "type": "image",
+                "key": "Level1ChallengeGround"
+            },
+            {
                 "url": "assets/Level1Ground.png",
                 "type": "image",
                 "key": "Level1Ground"
+            },
+            {
+                "url": "assets/gShapes/Level1Ground.png",
+                "type": "image",
+                "key": "Level1Ground_1"
+            },
+            {
+                "url": "assets/hints/Level1Hint.png",
+                "type": "image",
+                "key": "Level1Hint"
+            },
+            {
+                "url": "assets/images/Level1Reverse.png",
+                "type": "image",
+                "key": "Level1Reverse"
+            },
+            {
+                "url": "assets/gShapes/Level1ReverseChallengeGround.png",
+                "type": "image",
+                "key": "Level1ReverseChallengeGround"
+            },
+            {
+                "url": "assets/gShapes/Level1ReverseGround.png",
+                "type": "image",
+                "key": "Level1ReverseGround"
+            },
+            {
+                "url": "assets/gShapes/Level4Ground.png",
+                "type": "image",
+                "key": "Level4Ground"
+            },
+            {
+                "url": "assets/gShapes/Level5Ground.png",
+                "type": "image",
+                "key": "Level5Ground"
+            },
+            {
+                "url": "assets/gShapes/LevelChooseTunnelGround.png",
+                "type": "image",
+                "key": "LevelChooseTunnelGround"
+            },
+            {
+                "url": "assets/gShapes/LevelEasy2Ground.png",
+                "type": "image",
+                "key": "LevelEasy2Ground"
+            },
+            {
+                "url": "assets/gShapes/levelFrozenWaterGround.png",
+                "type": "image",
+                "key": "levelFrozenWaterGround"
+            },
+            {
+                "url": "assets/gShapes/LevelWaterIntroGround.png",
+                "type": "image",
+                "key": "LevelWaterIntroGround"
+            },
+            {
+                "url": "assets/gShapes/LevelWaterLoopGround.png",
+                "type": "image",
+                "key": "LevelWaterLoopGround"
+            },
+            {
+                "url": "assets/images/menubkgr.png",
+                "type": "image",
+                "key": "menubkgr"
+            },
+            {
+                "url": [
+                    "assets/audio/oberrysingular.mp3"
+                ],
+                "type": "audio",
+                "key": "oberrysingular"
+            },
+            {
+                "url": "assets/images/pause.png",
+                "type": "image",
+                "key": "pause"
+            },
+            {
+                "type": "multiatlas",
+                "url": "assets/atlas/pauseMenu.json",
+                "path": "assets/atlas",
+                "key": "pauseMenu"
+            },
+            {
+                "url": "assets/images/Pufflescape_Logo.png",
+                "type": "image",
+                "key": "Pufflescape_Logo"
+            },
+            {
+                "type": "multiatlas",
+                "url": "assets/atlas/PurpleSprites.json",
+                "path": "assets/atlas",
+                "key": "PurpleSprites"
+            },
+            {
+                "type": "multiatlas",
+                "url": "assets/atlas/RampExample.json",
+                "path": "assets/atlas",
+                "key": "RampExample"
+            },
+            {
+                "url": "assets/images/Symbol 2.png",
+                "type": "image",
+                "key": "Symbol 2"
+            },
+            {
+                "url": "assets/images/Symbol 3.png",
+                "type": "image",
+                "key": "Symbol 3"
+            },
+            {
+                "type": "multiatlas",
+                "url": "assets/atlas/uiButtons.json",
+                "path": "assets/atlas",
+                "key": "uiButtons"
+            },
+            {
+                "url": "assets/images/w1.png",
+                "type": "image",
+                "key": "w1"
+            },
+            {
+                "url": "assets/images/w2.png",
+                "type": "image",
+                "key": "w2"
+            },
+            {
+                "url": "assets/images/w3.png",
+                "type": "image",
+                "key": "w3"
             }
         ]
     },

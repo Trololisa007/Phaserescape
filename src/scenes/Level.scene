@@ -14,6 +14,8 @@
         "borderHeight": 960,
         "box2dGenerateWorldCode": true,
         "box2dWorld_scale": 65,
+        "box2dWorld_contactHertz": 60,
+        "box2dWorld_contactDampingRatio": 0,
         "box2dWorld_enableSleep": false
     },
     "displayList": [
@@ -37,8 +39,8 @@
             ],
             "label": "puffle",
             "scale": 0.8,
-            "x": 144,
-            "y": 160
+            "x": 112,
+            "y": 174
         },
         {
             "type": "Image",
@@ -55,6 +57,7 @@
             "type": "Layer",
             "id": "455e2025-a834-4e6c-84b7-64c596582a37",
             "label": "layer_1",
+            "visible": false,
             "list": [
                 {
                     "prefabId": "60bc0dd5-7d24-4147-aeec-75ebe12bbd8e",
@@ -82,7 +85,7 @@
                         "angle"
                     ],
                     "label": "ground_1",
-                    "x": 816,
+                    "x": 825,
                     "y": 272,
                     "angle": -11,
                     "width": 368,
@@ -100,7 +103,7 @@
                     ],
                     "label": "ground_2",
                     "x": 1104,
-                    "y": 272,
+                    "y": 271,
                     "angle": 17,
                     "width": 240,
                     "height": 64
@@ -113,9 +116,11 @@
                         "y",
                         "width",
                         "height",
-                        "angle"
+                        "angle",
+                        "material"
                     ],
                     "label": "ground_3",
+                    "material": "zeroFriction",
                     "x": -32,
                     "y": 384,
                     "angle": -90,
@@ -130,9 +135,11 @@
                         "y",
                         "width",
                         "height",
-                        "angle"
+                        "angle",
+                        "material"
                     ],
                     "label": "ground_4",
+                    "material": "zeroFriction",
                     "x": 1552,
                     "y": 416,
                     "angle": -90,
@@ -310,13 +317,110 @@
                         "angle"
                     ],
                     "label": "ground_12",
-                    "x": 701,
-                    "y": 870,
-                    "angle": 31,
+                    "x": 714,
+                    "y": 849,
+                    "angle": 30,
                     "width": 176,
-                    "height": 64
+                    "height": 14
                 }
             ]
+        },
+        {
+            "type": "Sprite",
+            "id": "57c715d6-f86f-4677-9b4e-f6f7cbe9e853",
+            "label": "RampExample",
+            "texture": {
+                "key": "RampExample",
+                "frame": "Symbol 15840001.png"
+            },
+            "x": 331,
+            "y": 672,
+            "scaleX": 0.6201078482376692,
+            "scaleY": 0.6201078482376692,
+            "angle": 8,
+            "animationPlayMethod": 1,
+            "animationKey": "Symbol"
+        },
+        {
+            "type": "Sprite",
+            "id": "a0efca83-0bdb-4a04-95e0-070e3629291a",
+            "label": "sprite_1",
+            "texture": {
+                "key": "2"
+            },
+            "x": 529,
+            "y": 145,
+            "scaleX": 0.45999045763456825,
+            "scaleY": 0.45999045763456825,
+            "animationPlayMethod": 1,
+            "animationKey": "inputExample"
+        },
+        {
+            "type": "Image",
+            "id": "c2969578-ea44-41cb-87f0-ae4b60da38fd",
+            "label": "symbol_3",
+            "texture": {
+                "key": "Symbol 3"
+            },
+            "x": 699,
+            "y": 848,
+            "scaleX": 0.65,
+            "scaleY": 0.65,
+            "angle": 30
+        },
+        {
+            "type": "Image",
+            "id": "e0078dec-ddfe-46ef-a976-88114c63a1b3",
+            "label": "symbol",
+            "texture": {
+                "key": "Symbol 2"
+            },
+            "x": 419,
+            "y": 851,
+            "angle": -34
+        },
+        {
+            "type": "Image",
+            "id": "37babcc8-81f2-468c-aa5b-0b9e00af01c7",
+            "label": "symbol_2",
+            "texture": {
+                "key": "Symbol 2"
+            },
+            "x": 1412,
+            "y": 1138,
+            "scaleX": 1.1798879269540332,
+            "scaleY": 1.1798879269540332
+        },
+        {
+            "type": "Image",
+            "id": "af172352-b6a7-4537-bec5-df59c6b4b4a6",
+            "label": "exitOver",
+            "texture": {
+                "key": "exitOver"
+            },
+            "x": 1397,
+            "y": 709
+        },
+        {
+            "type": "Image",
+            "id": "a84a15fe-b9ee-42bd-a4ce-31307eb49074",
+            "label": "_1foreground",
+            "texture": {
+                "key": "1foreground"
+            },
+            "x": 751,
+            "y": 496
+        },
+        {
+            "prefabId": "2e3ea0ce-1547-4eba-aa80-9e8d29867ef6",
+            "id": "a09004fb-43e7-4f9e-8538-ad44a2dbd9b1",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "oberrysingular0001_png",
+            "x": 1292,
+            "y": 225
         }
     ],
     "plainObjects": [],

@@ -1,0 +1,767 @@
+{
+    "anims": [
+        {
+            "key": "bling",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "bling",
+                    "frame": "bling0001.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "bling",
+                    "frame": "bling0002.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "bling",
+                    "frame": "bling0003.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "bling",
+                    "frame": "bling0004.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "bling",
+                    "frame": "bling0005.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "bling",
+                    "frame": "bling0006.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "bling",
+                    "frame": "bling0007.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "bling",
+                    "frame": "bling0008.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "bling",
+                    "frame": "bling0009.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "bling",
+                    "frame": "bling0010.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "bling",
+                    "frame": "bling0011.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "bling",
+                    "frame": "bling0012.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "bling",
+                    "frame": "bling0013.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "bling",
+                    "frame": "bling0014.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "bling",
+                    "frame": "bling0015.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "bling",
+                    "frame": "bling0016.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "bling",
+                    "frame": "bling0017.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "bling",
+                    "frame": "bling0018.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "bling",
+                    "frame": "bling0019.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "bling",
+                    "frame": "bling0020.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "bling",
+                    "frame": "bling0021.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "bling",
+                    "frame": "bling0022.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "bling",
+                    "frame": "bling0023.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "bling",
+                    "frame": "bling0024.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "bling",
+                    "frame": "bling0025.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "bling",
+                    "frame": "bling0026.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "bling",
+                    "frame": "bling0027.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "bling",
+                    "frame": "bling0028.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "bling",
+                    "frame": "bling0029.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "bling",
+                    "frame": "bling0030.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "bling",
+                    "frame": "bling0031.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "bling",
+                    "frame": "bling0032.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "bling",
+                    "frame": "bling0033.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "bling",
+                    "frame": "bling0034.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "bling",
+                    "frame": "bling0035.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "bling",
+                    "frame": "bling0036.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "bling",
+                    "frame": "bling0037.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "bling",
+                    "frame": "bling0038.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "bling",
+                    "frame": "bling0039.png",
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 45,
+            "skipMissedFrames": true,
+            "repeat": -1,
+            "randomFrame": false
+        },
+        {
+            "key": "Symbol",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "RampExample",
+                    "frame": "Symbol 15840001.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "RampExample",
+                    "frame": "Symbol 15840002.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "RampExample",
+                    "frame": "Symbol 15840003.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "RampExample",
+                    "frame": "Symbol 15840004.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "RampExample",
+                    "frame": "Symbol 15840005.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "RampExample",
+                    "frame": "Symbol 15840006.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "RampExample",
+                    "frame": "Symbol 15840007.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "RampExample",
+                    "frame": "Symbol 15840008.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "RampExample",
+                    "frame": "Symbol 15840009.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "RampExample",
+                    "frame": "Symbol 15840010.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "RampExample",
+                    "frame": "Symbol 15840011.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "RampExample",
+                    "frame": "Symbol 15840012.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "RampExample",
+                    "frame": "Symbol 15840013.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "RampExample",
+                    "frame": "Symbol 15840014.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "RampExample",
+                    "frame": "Symbol 15840015.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "RampExample",
+                    "frame": "Symbol 15840016.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "RampExample",
+                    "frame": "Symbol 15840017.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "RampExample",
+                    "frame": "Symbol 15840018.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "RampExample",
+                    "frame": "Symbol 15840019.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "RampExample",
+                    "frame": "Symbol 15840020.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "RampExample",
+                    "frame": "Symbol 15840021.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "RampExample",
+                    "frame": "Symbol 15840022.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "RampExample",
+                    "frame": "Symbol 15840023.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "RampExample",
+                    "frame": "Symbol 15840024.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "RampExample",
+                    "frame": "Symbol 15840025.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "RampExample",
+                    "frame": "Symbol 15840026.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "RampExample",
+                    "frame": "Symbol 15840027.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "RampExample",
+                    "frame": "Symbol 15840028.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "RampExample",
+                    "frame": "Symbol 15840029.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "RampExample",
+                    "frame": "Symbol 15840030.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "RampExample",
+                    "frame": "Symbol 15840031.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "RampExample",
+                    "frame": "Symbol 15840032.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "RampExample",
+                    "frame": "Symbol 15840033.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "RampExample",
+                    "frame": "Symbol 15840034.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "RampExample",
+                    "frame": "Symbol 15840035.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "RampExample",
+                    "frame": "Symbol 15840036.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "RampExample",
+                    "frame": "Symbol 15840037.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "RampExample",
+                    "frame": "Symbol 15840038.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "RampExample",
+                    "frame": "Symbol 15840039.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "RampExample",
+                    "frame": "Symbol 15840040.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "RampExample",
+                    "frame": "Symbol 15840041.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "RampExample",
+                    "frame": "Symbol 15840042.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "RampExample",
+                    "frame": "Symbol 15840043.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "RampExample",
+                    "frame": "Symbol 15840044.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "RampExample",
+                    "frame": "Symbol 15840045.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "RampExample",
+                    "frame": "Symbol 15840046.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "RampExample",
+                    "frame": "Symbol 15840047.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "RampExample",
+                    "frame": "Symbol 15840048.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "RampExample",
+                    "frame": "Symbol 15840049.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "RampExample",
+                    "frame": "Symbol 15840050.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "RampExample",
+                    "frame": "Symbol 15840051.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "RampExample",
+                    "frame": "Symbol 15840052.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "RampExample",
+                    "frame": "Symbol 15840053.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "RampExample",
+                    "frame": "Symbol 15840054.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "RampExample",
+                    "frame": "Symbol 15840055.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "RampExample",
+                    "frame": "Symbol 15840056.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "RampExample",
+                    "frame": "Symbol 15840057.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "RampExample",
+                    "frame": "Symbol 15840058.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "RampExample",
+                    "frame": "Symbol 15840059.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "RampExample",
+                    "frame": "Symbol 15840060.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "RampExample",
+                    "frame": "Symbol 15840061.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "RampExample",
+                    "frame": "Symbol 15840062.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "RampExample",
+                    "frame": "Symbol 15840063.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "RampExample",
+                    "frame": "Symbol 15840064.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "RampExample",
+                    "frame": "Symbol 15840065.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "RampExample",
+                    "frame": "Symbol 15840066.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "RampExample",
+                    "frame": "Symbol 15840067.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "RampExample",
+                    "frame": "Symbol 15840068.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "RampExample",
+                    "frame": "Symbol 15840069.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "RampExample",
+                    "frame": "Symbol 15840070.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "RampExample",
+                    "frame": "Symbol 15840071.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "RampExample",
+                    "frame": "Symbol 15840072.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "RampExample",
+                    "frame": "Symbol 15840073.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "RampExample",
+                    "frame": "Symbol 15840074.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "RampExample",
+                    "frame": "Symbol 15840075.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "RampExample",
+                    "frame": "Symbol 15840076.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "RampExample",
+                    "frame": "Symbol 15840077.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "RampExample",
+                    "frame": "Symbol 15840001.png",
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 45,
+            "skipMissedFrames": true,
+            "repeat": -1,
+            "repeatDelay": 1500,
+            "randomFrame": false
+        },
+        {
+            "key": "inputExample",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "91",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "2",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "20",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "2",
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 1,
+            "skipMissedFrames": true,
+            "repeat": -1,
+            "randomFrame": false
+        }
+    ],
+    "globalTimeScale": 1,
+    "meta": {
+        "app": "Phaser Editor 2D v3",
+        "contentType": "Phaser v3 Animations"
+    },
+    "settings": {
+        "sourceLang": "JAVA_SCRIPT",
+        "esModule": false,
+        "generateCode": false
+    }
+}

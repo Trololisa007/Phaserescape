@@ -3,7 +3,7 @@
 
 /* START OF COMPILED CODE */
 
-import { b2CreateBody } from "../box2d/PhaserBox2D.js";
+import { b2Body_ApplyForceToCenter, b2CreateBody } from "../box2d/PhaserBox2D.js";
 import { b2DefaultBodyDef } from "../box2d/PhaserBox2D.js";
 import { b2BodyType } from "../box2d/PhaserBox2D.js";
 import { pxmVec2 } from "../box2d/PhaserBox2D.js";
@@ -21,6 +21,12 @@ import { b2Body_SetAngularVelocity } from "../box2d/PhaserBox2D.js";
 import { b2Shape_GetCircle } from "../box2d/PhaserBox2D.js";
 import { b2Shape_SetCircle } from "../box2d/PhaserBox2D.js";
 import { GetWorldScale } from "../box2d/PhaserBox2D.js";
+import { b2Shape_GetDensity } from "../box2d/PhaserBox2D.js";
+import { b2Shape_SetDensity } from "../box2d/PhaserBox2D.js";
+import { b2Body_ApplyMassFromShapes } from "../box2d/PhaserBox2D.js";
+import { b2Body_GetMass } from "../box2d/PhaserBox2D.js";
+import { b2Body_SetTransform } from "../box2d/PhaserBox2D.js";
+
 /* END-USER-IMPORTS */
 
 export default class Puffle extends Phaser.GameObjects.Image {
@@ -52,6 +58,7 @@ export default class Puffle extends Phaser.GameObjects.Image {
 
 		/* START-USER-CTR-CODE */
 		this.radius = b2Shape_GetCircle(ball).radius
+		this.density = b2Shape_GetDensity(ball)
 		this.cursors = this.scene.input.keyboard.createCursorKeys()
 		this.keyD = this.scene.input.keyboard.addKey(Phaser.Input.Keyboard.KeyCodes.D);
 		this.keyA = this.scene.input.keyboard.addKey(Phaser.Input.Keyboard.KeyCodes.A);
@@ -65,6 +72,7 @@ export default class Puffle extends Phaser.GameObjects.Image {
 			this.scene.events.off(Phaser.Scenes.Events.UPDATE, this.update, this);
 		});
 		this.updateScale()
+
 
 		/* END-USER-CTR-CODE */
 	}
@@ -81,6 +89,9 @@ export default class Puffle extends Phaser.GameObjects.Image {
 		const circle = new b2Circle(new b2Vec2(0,0), this.radius*this.SCALE)
 		b2Shape_SetCircle(this.ball, circle)
 		this.setScale(this.SCALE, this.SCALE)
+		b2Shape_SetDensity(this.ball, this.density * (this.SCALE**2))
+		b2Body_ApplyMassFromShapes(this.ball)
+
 	}
 
 	update(time, delta) {
@@ -92,13 +103,13 @@ export default class Puffle extends Phaser.GameObjects.Image {
 		// this.updateAnimationState();
 		// x = this.__body.GetPosition().x * Simulation.WORLD_RATIO;
 		// y = this.__body.GetPosition().y * Simulation.WORLD_RATIO;
-		// this.ball.rotation = this.__body.GetAngle() / (Math.PI * 2) * 360;
-		// this.ball.rotation %= 360;
+		this.rotation = this.rot / (Math.PI * 2) * 360;
+		this.rotation %= 360;
 		var leftDown = this.cursors.left.isDown || this.keyA.isDown;
 		var rightDown = this.cursors.right.isDown || this.keyD.isDown;
 		var keyDown = leftDown || rightDown;
 		if(keyDown){
-			console.log("right: %s, left: %s", rightDown, leftDown, time)
+			console.log("right: %s, left: %s", rightDown, leftDown, time, b2Body_GetMass(this.ball))
 
 		}
 
@@ -106,6 +117,12 @@ export default class Puffle extends Phaser.GameObjects.Image {
 		if(keyDown)
 		{
 			this.isActivelyRolling = true;
+			var lin = b2Body_GetLinearVelocity(bodyId)
+			var mag = Math.hypot(lin.x, lin.y)
+			if(mag<0.001){
+				console.log(mag)
+				
+			}
 			if(leftDown && b2Body_GetAngularVelocity(bodyId) < this.MAX_ANGULAR_VELOCITY)
 			{
 			b2Body_ApplyTorque(bodyId,this.TORQUE_PER_UPDATE);

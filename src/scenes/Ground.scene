@@ -17,6 +17,9 @@
             "type": "Rectangle",
             "id": "a00b1499-3ecb-40b1-98d0-916ab9afcc34",
             "label": "rectangle_1",
+            "hitArea.shape": "RECTANGLE",
+            "hitArea.width": 128,
+            "hitArea.height": 128,
             "isFilled": true,
             "fillColor": "#fb7474",
             "strokeColor": "#f10000",
@@ -32,5 +35,25 @@
         "url": "https://phaser.io/editor",
         "contentType": "phasereditor2d.core.scene.SceneContentType",
         "version": 5
-    }
+    },
+    "prefabProperties": [
+        {
+            "name": "material",
+            "label": "Material Types",
+            "tooltip": "the type of boundary material",
+            "defValue": "snow",
+            "customDefinition": false,
+            "type": {
+                "id": "option",
+                "options": [
+                    "wall",
+                    "snow",
+                    "ice",
+                    "iceSticky",
+                    "iceSlick",
+                    "zeroFriction"
+                ]
+            }
+        }
+    ]
 }
