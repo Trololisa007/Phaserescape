@@ -6,8 +6,8 @@
 import { CreateWorld } from "../box2d/PhaserBox2D.js";
 import { SetWorldScale } from "../box2d/PhaserBox2D.js";
 import { b2DefaultWorldDef } from "../box2d/PhaserBox2D.js";
-import Puffle from "./Puffle.js";
 import Ground from "./Ground.js";
+import Puffle from "./Puffle.js";
 import oberrySingular from "./oberrySingular.js";
 import { WorldStep } from "../box2d/PhaserBox2D.js";
 import { UpdateWorldSprites } from "../box2d/PhaserBox2D.js";
@@ -41,10 +41,6 @@ export default class Level extends Phaser.Scene {
 
 		// level1
 		this.add.image(752, 496, "Level1");
-
-		// puffle
-		const puffle = new Puffle(this, 112, 174);
-		this.add.existing(puffle);
 
 		// level1Ground
 		const level1Ground = this.add.image(754, 497, "Level1Ground");
@@ -156,24 +152,28 @@ export default class Level extends Phaser.Scene {
 		symbol_2.scaleX = 1.1798879269540332;
 		symbol_2.scaleY = 1.1798879269540332;
 
+		// puffle
+		const puffle = new Puffle(this, 112, 174);
+		this.add.existing(puffle);
+
+		// oberrysingular0001_png
+		const oberrysingular0001_png = new oberrySingular(this, 1292, 225);
+		this.add.existing(oberrysingular0001_png);
+
 		// exitOver
 		this.add.image(1397, 709, "exitOver");
 
 		// _1foreground
 		this.add.image(751, 496, "1foreground");
 
-		// oberrysingular0001_png
-		const oberrysingular0001_png = new oberrySingular(this, 1292, 225);
-		this.add.existing(oberrysingular0001_png);
-
-		// puffle (prefab fields)
-		puffle.scale = 0.8;
-
 		// ground_3 (prefab fields)
 		ground_3.material = "zeroFriction";
 
 		// ground_4 (prefab fields)
 		ground_4.material = "zeroFriction";
+
+		// puffle (prefab fields)
+		puffle.scale = 0.8;
 
 		this.events.emit("scene-awake");
 	}
