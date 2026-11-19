@@ -14,8 +14,16 @@ import { UpdateWorldSprites } from "../box2d/PhaserBox2D.js";
 import { b2World_Draw } from "../box2d/PhaserBox2D.js";
 import { b2WorldId } from "../box2d/PhaserBox2D.js";
 /* START-USER-IMPORTS */
+<<<<<<< HEAD
 // import { b2DefaultWorldDef } from "../box2d/PhaserBox2D.js";
 import { GetWorldScale } from "../box2d/PhaserBox2D.js";
+=======
+// import {CreateWorld, b2DefaultWorldDef, CreateBoxPolygon, SpriteToBox, AddSpriteToWorld, STATIC, b2DefaultBodyDef, pxmVec2, b2Vec2, WorldStep, UpdateWorldSprites} from '../physics.js';
+// import {CreateWorld, b2DefaultWorldDef, CreateBoxPolygon, SpriteToBox, AddSpriteToWorld, STATIC, b2DefaultBodyDef, pxmVec2, b2Vec2, WorldStep, UpdateWorldSprites} from '../PhaserBox2D.js';
+// import * as Box from '../PhaserBox2D.js'
+import {CreateCircle,DYNAMIC, CreateWorld, b2DefaultWorldDef, CreateBoxPolygon, SpriteToBox, AddSpriteToWorld, STATIC, b2DefaultBodyDef, pxmVec2, b2Vec2, WorldStep, UpdateWorldSprites } from '../../node_modules/phaser-box2d/dist/PhaserBox2D.js';
+// import {CreateCircle,DYNAMIC, CreateWorld, b2DefaultWorldDef, CreateBoxPolygon, SpriteToBox, AddSpriteToWorld, STATIC, b2DefaultBodyDef, pxmVec2, b2Vec2, WorldStep, UpdateWorldSprites } from 'phaser-box2d/dist/PhaserBox2D.js';
+>>>>>>> 9978d0ca186a0587d12365fe1ae9e2682580b420
 /* END-USER-IMPORTS */
 
 export default class Level extends Phaser.Scene {
@@ -157,7 +165,46 @@ export default class Level extends Phaser.Scene {
 		// this.world = CreateWorld({ worldDef: b2DefaultWorldDef() });
 		// this.worldId = this.world.worldId;
 		this.editorCreate();
+<<<<<<< HEAD
 		this.WORLDSCALE = GetWorldScale()
+=======
+		this.puffle.init(worldId)
+
+
+		this.dino.on("pointerdown", () => {
+
+			this.welcome.text = "Hello, World!";
+		});
+
+
+
+        const box = SpriteToBox(worldId, this.dino, {
+            restitution: 1.0,
+            friction: 0.01
+        });
+
+        AddSpriteToWorld(worldId, this.dino, box);
+		this.__body = b2DefaultBodyDef()
+
+		// const ball = CreateCircle({
+		// 	worldId: worldId,
+		// 	bodyDef: new b2DefaultBodyDef(),
+		// 	type: DYNAMIC,
+		// 	position: new pxmVec2(this.ball.x, this.ball.y),
+		// 	restitution: 0.2,
+		// 	friction: 1.5,
+		// 	// density: 3,
+		// 	radius: 
+
+		// })
+
+		// AddSpriteToWorld(worldId, this.ball, ball)
+
+		// create floor
+        CreateBoxPolygon({ worldId, type: STATIC, bodyDef: b2DefaultBodyDef(), position: pxmVec2(640, -740), size: new b2Vec2(20, 1), friction: 0.5 });
+
+
+>>>>>>> 9978d0ca186a0587d12365fe1ae9e2682580b420
 	}
 
 	/* END-USER-CODE */
