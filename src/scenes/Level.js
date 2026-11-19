@@ -6,12 +6,10 @@
 import { CreateWorld } from "../box2d/PhaserBox2D.js";
 import { SetWorldScale } from "../box2d/PhaserBox2D.js";
 import { b2DefaultWorldDef } from "../box2d/PhaserBox2D.js";
-import { PhaserDebugDraw } from "../box2d/PhaserDebugDraw.js";
 import Puffle from "./Puffle.js";
 import Ground from "./Ground.js";
 import { WorldStep } from "../box2d/PhaserBox2D.js";
 import { UpdateWorldSprites } from "../box2d/PhaserBox2D.js";
-import { b2World_Draw } from "../box2d/PhaserBox2D.js";
 import { b2WorldId } from "../box2d/PhaserBox2D.js";
 /* START-USER-IMPORTS */
 // import { b2DefaultWorldDef } from "../box2d/PhaserBox2D.js";
@@ -46,7 +44,8 @@ export default class Level extends Phaser.Scene {
 		this.add.existing(puffle);
 
 		// level1Ground
-		this.add.image(754, 497, "Level1Ground");
+		const level1Ground = this.add.image(754, 497, "Level1Ground");
+		level1Ground.visible = false;
 
 		// layer_1
 		const layer_1 = this.add.layer();
@@ -125,10 +124,6 @@ export default class Level extends Phaser.Scene {
 		ground_12.angle = 31;
 		layer_1.add(ground_12);
 
-		// Box2D debug graphics
-		this.debugGraphics = this.add.graphics();
-		this.debugDraw = new PhaserDebugDraw(this.debugGraphics, this.game.scale.width, this.game.scale.height, 65);
-
 		// puffle (prefab fields)
 		puffle.scale = 0.8;
 
@@ -139,14 +134,10 @@ export default class Level extends Phaser.Scene {
 
 		WorldStep({ worldId: this.worldId, deltaTime: delta });
 		UpdateWorldSprites(this.worldId);
-		this.debugGraphics.clear();
-		b2World_Draw(this.worldId, this.debugDraw);
 	}
 
 	/** @type {b2WorldId} */
 	worldId;
-	/** @type {Phaser.GameObjects.Graphics} */
-	debugGraphics;
 
 	/* START-USER-CODE */
 

@@ -13,7 +13,6 @@
         "borderWidth": 1520,
         "borderHeight": 960,
         "box2dGenerateWorldCode": true,
-        "box2dSceneGenerateDebugCode": true,
         "box2dWorld_scale": 65,
         "box2dWorld_enableSleep": false
     },
@@ -49,7 +48,8 @@
                 "key": "Level1Ground"
             },
             "x": 754,
-            "y": 497
+            "y": 497,
+            "visible": false
         },
         {
             "type": "Layer",
