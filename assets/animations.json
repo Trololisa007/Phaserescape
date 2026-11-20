@@ -752,6 +752,562 @@
             "skipMissedFrames": true,
             "repeat": -1,
             "randomFrame": false
+        },
+        {
+            "key": "key",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "collectables",
+                    "frame": "key0001.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "collectables",
+                    "frame": "key0002.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "collectables",
+                    "frame": "key0003.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "collectables",
+                    "frame": "key0004.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "collectables",
+                    "frame": "key0005.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "collectables",
+                    "frame": "key0006.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "collectables",
+                    "frame": "key0007.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "collectables",
+                    "frame": "key0008.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "collectables",
+                    "frame": "key0009.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "collectables",
+                    "frame": "key0010.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "collectables",
+                    "frame": "key0011.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "collectables",
+                    "frame": "key0012.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "collectables",
+                    "frame": "key0013.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "collectables",
+                    "frame": "key0014.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "collectables",
+                    "frame": "key0015.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "collectables",
+                    "frame": "key0016.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "collectables",
+                    "frame": "key0017.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "collectables",
+                    "frame": "key0018.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "collectables",
+                    "frame": "key0019.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "collectables",
+                    "frame": "key0020.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "collectables",
+                    "frame": "key0021.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "collectables",
+                    "frame": "key0022.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "collectables",
+                    "frame": "key0023.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "collectables",
+                    "frame": "key0024.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "collectables",
+                    "frame": "key0025.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "collectables",
+                    "frame": "key0026.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "collectables",
+                    "frame": "key0027.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "collectables",
+                    "frame": "key0028.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "collectables",
+                    "frame": "key0029.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "collectables",
+                    "frame": "key0030.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "collectables",
+                    "frame": "key0031.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "collectables",
+                    "frame": "key0032.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "collectables",
+                    "frame": "key0033.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "collectables",
+                    "frame": "key0034.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "collectables",
+                    "frame": "key0035.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "collectables",
+                    "frame": "key0036.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "collectables",
+                    "frame": "key0037.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "collectables",
+                    "frame": "key0038.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "collectables",
+                    "frame": "key0039.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "collectables",
+                    "frame": "key0040.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "collectables",
+                    "frame": "key0041.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "collectables",
+                    "frame": "key0042.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "collectables",
+                    "frame": "key0043.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "collectables",
+                    "frame": "key0044.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "collectables",
+                    "frame": "key0045.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "collectables",
+                    "frame": "key0046.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "collectables",
+                    "frame": "key0047.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "collectables",
+                    "frame": "key0048.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "collectables",
+                    "frame": "key0049.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "collectables",
+                    "frame": "key0050.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "collectables",
+                    "frame": "key0051.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "collectables",
+                    "frame": "key0052.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "collectables",
+                    "frame": "key0053.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "collectables",
+                    "frame": "key0054.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "collectables",
+                    "frame": "key0055.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "collectables",
+                    "frame": "key0056.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "collectables",
+                    "frame": "key0057.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "collectables",
+                    "frame": "key0058.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "collectables",
+                    "frame": "key0059.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "collectables",
+                    "frame": "key0060.png",
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 24,
+            "skipMissedFrames": true,
+            "repeat": -1,
+            "randomFrame": false
+        },
+        {
+            "key": "key0009 - Copy",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "collectables",
+                    "frame": "key0009 - Copy.png",
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 24,
+            "skipMissedFrames": true,
+            "repeat": -1,
+            "randomFrame": false
+        },
+        {
+            "key": "Main",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "collectables",
+                    "frame": "Main.png",
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 24,
+            "skipMissedFrames": true,
+            "repeat": -1,
+            "randomFrame": false
+        },
+        {
+            "key": "oberrysingular",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "collectables",
+                    "frame": "oberrysingular0001.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "collectables",
+                    "frame": "oberrysingular0002.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "collectables",
+                    "frame": "oberrysingular0003.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "collectables",
+                    "frame": "oberrysingular0004.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "collectables",
+                    "frame": "oberrysingular0005.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "collectables",
+                    "frame": "oberrysingular0006.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "collectables",
+                    "frame": "oberrysingular0007.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "collectables",
+                    "frame": "oberrysingular0008.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "collectables",
+                    "frame": "oberrysingular0009.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "collectables",
+                    "frame": "oberrysingular0010.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "collectables",
+                    "frame": "oberrysingular0011.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "collectables",
+                    "frame": "oberrysingular0012.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "collectables",
+                    "frame": "oberrysingular0013.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "collectables",
+                    "frame": "oberrysingular0014.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "collectables",
+                    "frame": "oberrysingular0015.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "collectables",
+                    "frame": "oberrysingular0016.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "collectables",
+                    "frame": "oberrysingular0017.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "collectables",
+                    "frame": "oberrysingular0018.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "collectables",
+                    "frame": "oberrysingular0019.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "collectables",
+                    "frame": "oberrysingular0020.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "collectables",
+                    "frame": "oberrysingular0021.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "collectables",
+                    "frame": "oberrysingular0022.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "collectables",
+                    "frame": "oberrysingular0023.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "collectables",
+                    "frame": "oberrysingular0024.png",
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 45,
+            "skipMissedFrames": true,
+            "repeat": -1,
+            "randomFrame": false
         }
     ],
     "globalTimeScale": 1,

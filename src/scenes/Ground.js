@@ -4,7 +4,7 @@
 /* START OF COMPILED CODE */
 
 /* START-USER-IMPORTS */
-import { CreateBoxPolygon } from "../box2d/PhaserBox2D.js";
+import { b2Shape_SetFilter, CreateBoxPolygon } from "../box2d/PhaserBox2D.js";
 import { STATIC } from "../box2d/PhaserBox2D.js";
 import { b2DefaultBodyDef } from "../box2d/PhaserBox2D.js";
 import { pxmVec2 } from "../box2d/PhaserBox2D.js";
@@ -27,7 +27,8 @@ export default class Ground extends Phaser.GameObjects.Rectangle {
 		this.lineWidth = 5;
 
 		/* START-USER-CTR-CODE */
-		this.materialMap = {"wall": 0, "snow": 0.8, "ice": 0.15, "iceSticky": 0.3, "iceSlick": 0.08, "zeroFriction":0}
+		this.materialMap = {"wall": 0.1, "snow": 0.8, "ice": 0.15, "iceSticky": 0.3, "iceSlick": 0.08, "zeroFriction":0}
+		this.restitutionMap = {"wall": 0.3, "snow": 0, "ice": 0, "iceSticky": 0, "iceSlick": 0, "zeroFriction":0}
 		this.scene.events.once("scene-awake", () => {this.createBody()});
 		/* END-USER-CTR-CODE */
 	}
@@ -45,7 +46,8 @@ export default class Ground extends Phaser.GameObjects.Rectangle {
 		body.rotation = new b2Rot(Math.cos(-this.rotation), Math.sin(-this.rotation))
 		const pos = new pxmVec2(this.x, -this.y)
 		const size = new b2Vec2(this.width/scale/2, this.height/scale/2)
-		var poly = CreateBoxPolygon({ worldId, type: STATIC, bodyDef: body, position: pos, size: size, friction: this.materialMap[this.material]});
+		var poly = CreateBoxPolygon({ worldId, type: STATIC, bodyDef: body, position: pos, size: size, friction: this.materialMap[this.material], restitution: this.restitutionMap[this.material]});
+		b2Shape_SetFilter(poly.bodyId, {categoryBits: 1, maskBits: 6, groupIndex: 0})
 		this.setAlpha(0)
 
 	}

@@ -3,13 +3,14 @@
 
 /* START OF COMPILED CODE */
 
-import { b2Body_ApplyForceToCenter, b2CreateBody } from "../box2d/PhaserBox2D.js";
+import { b2CreateBody } from "../box2d/PhaserBox2D.js";
 import { b2DefaultBodyDef } from "../box2d/PhaserBox2D.js";
 import { b2BodyType } from "../box2d/PhaserBox2D.js";
 import { pxmVec2 } from "../box2d/PhaserBox2D.js";
 import { AddSpriteToWorld } from "../box2d/PhaserBox2D.js";
 import { b2CreateCircleShape } from "../box2d/PhaserBox2D.js";
 import { b2DefaultShapeDef } from "../box2d/PhaserBox2D.js";
+import { b2Filter } from "../box2d/PhaserBox2D.js";
 import { b2Circle } from "../box2d/PhaserBox2D.js";
 import { pxm } from "../box2d/PhaserBox2D.js";
 import { b2Vec2 } from "../box2d/PhaserBox2D.js";
@@ -51,7 +52,12 @@ export default class Puffle extends Phaser.GameObjects.Image {
 			...b2DefaultShapeDef(), 
 			friction: 1.5, 
 			restitution: 0.2, 
-			density: 3
+			density: 3, 
+			filter: { 
+				categoryBits: 2, 
+				maskBits: 4294967295, 
+				groupIndex: 0
+			}
 		}, new b2Circle(new b2Vec2(pxm(0), pxm(0)), pxm(64.5)));
 
 		this.ball = ball;
@@ -94,7 +100,7 @@ export default class Puffle extends Phaser.GameObjects.Image {
 
 	}
 
-	update(time, delta) {
+	update() {
 		// console.log(time)
 		if (!this.ball) {
 			return
@@ -109,7 +115,7 @@ export default class Puffle extends Phaser.GameObjects.Image {
 		var rightDown = this.cursors.right.isDown || this.keyD.isDown;
 		var keyDown = leftDown || rightDown;
 		if(keyDown){
-			console.log("right: %s, left: %s", rightDown, leftDown, time, b2Body_GetMass(this.ball))
+			// console.log("right: %s, left: %s", rightDown, leftDown, time, b2Body_GetMass(this.ball))
 
 		}
 
@@ -121,7 +127,7 @@ export default class Puffle extends Phaser.GameObjects.Image {
 			var mag = Math.hypot(lin.x, lin.y)
 			if(mag<0.001){
 				console.log(mag)
-				
+
 			}
 			if(leftDown && b2Body_GetAngularVelocity(bodyId) < this.MAX_ANGULAR_VELOCITY)
 			{

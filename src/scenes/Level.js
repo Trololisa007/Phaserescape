@@ -9,6 +9,7 @@ import { b2DefaultWorldDef } from "../box2d/PhaserBox2D.js";
 import Ground from "./Ground.js";
 import Puffle from "./Puffle.js";
 import oberrySingular from "./oberrySingular.js";
+import key from "./key.js";
 import { WorldStep } from "../box2d/PhaserBox2D.js";
 import { UpdateWorldSprites } from "../box2d/PhaserBox2D.js";
 import { b2WorldId } from "../box2d/PhaserBox2D.js";
@@ -129,13 +130,13 @@ export default class Level extends Phaser.Scene {
 		rampExample.scaleX = 0.6201078482376692;
 		rampExample.scaleY = 0.6201078482376692;
 		rampExample.angle = 8;
-		rampExample.play("Symbol");
+		rampExample.play({"key":"Symbol","frameRate":90,"repeatDelay":1500});
 
 		// sprite_1
 		const sprite_1 = this.add.sprite(529, 145, "2");
 		sprite_1.scaleX = 0.45999045763456825;
 		sprite_1.scaleY = 0.45999045763456825;
-		sprite_1.play("inputExample");
+		sprite_1.play({"key":"inputExample","frameRate":2});
 
 		// symbol_3
 		const symbol_3 = this.add.image(699, 848, "Symbol 3");
@@ -156,9 +157,9 @@ export default class Level extends Phaser.Scene {
 		const puffle = new Puffle(this, 112, 174);
 		this.add.existing(puffle);
 
-		// oberrysingular0001_png
-		const oberrysingular0001_png = new oberrySingular(this, 1292, 225);
-		this.add.existing(oberrysingular0001_png);
+		// oberry1
+		const oberry1 = new oberrySingular(this, 1292, 225);
+		this.add.existing(oberry1);
 
 		// exitOver
 		this.add.image(1397, 709, "exitOver");
@@ -166,11 +167,19 @@ export default class Level extends Phaser.Scene {
 		// _1foreground
 		this.add.image(751, 496, "1foreground");
 
+		// sprite_2
+		const sprite_2 = new key(this, 89, 788);
+		this.add.existing(sprite_2);
+
+		// oberry2
+		const oberry2 = new oberrySingular(this, 64, 526);
+		this.add.existing(oberry2);
+
 		// ground_3 (prefab fields)
-		ground_3.material = "zeroFriction";
+		ground_3.material = "wall";
 
 		// ground_4 (prefab fields)
-		ground_4.material = "zeroFriction";
+		ground_4.material = "wall";
 
 		// puffle (prefab fields)
 		puffle.scale = 0.8;

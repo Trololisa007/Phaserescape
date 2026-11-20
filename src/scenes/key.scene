@@ -1,0 +1,55 @@
+{
+    "id": "99b0e687-290a-4664-bcde-aa7cb78224b5",
+    "sceneType": "PREFAB",
+    "settings": {
+        "exportClass": true,
+        "autoImport": true,
+        "importFileExtension": true,
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Sprite",
+            "id": "c61df271-75a6-47f8-be50-a60ed8284f10",
+            "label": "sprite_2",
+            "texture": {
+                "key": "collectables",
+                "frame": "key0001.png"
+            },
+            "animationPlayMethod": 1,
+            "animationKey": "key",
+            "animationCustomConfig": true,
+            "animationFrameRate": 90,
+            "list": [
+                {
+                    "type": "b2Body",
+                    "id": "cfb06dd1-2d2c-453a-bd42-e3ef06996da4",
+                    "label": "body",
+                    "list": [
+                        {
+                            "type": "b2BoxShape",
+                            "id": "abd54cd2-089b-4613-b8b5-40f02f6e2b03",
+                            "label": "shape",
+                            "filterCategoryBits": 8,
+                            "filterMaskBits": 2,
+                            "isSensor": true,
+                            "halfWidth": 73,
+                            "halfHeight": 39
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor - Scene Editor",
+        "url": "https://phaser.io/editor",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 5
+    }
+}

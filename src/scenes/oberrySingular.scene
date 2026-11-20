@@ -1,41 +1,57 @@
 {
     "id": "2e3ea0ce-1547-4eba-aa80-9e8d29867ef6",
+    "sceneType": "PREFAB",
     "settings": {
-        "createMethodName": "",
-        "preloadMethodName": "",
-        "compilerOutputLanguage": "JAVA_SCRIPT",
         "exportClass": true,
         "autoImport": true,
         "importFileExtension": true,
-        "generateAwakeHandler": false,
-        "compilerInsertSpaces": false,
-        "compilerTabSize": 4,
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
         "borderWidth": 1520,
-        "borderHeight": 960,
-        "borderX": 0,
-        "borderY": 0
+        "borderHeight": 960
     },
-    "sceneType": "PREFAB",
     "displayList": [
         {
-            "unlock": [
-                "x",
-                "y"
-            ],
-            "type": "Image",
-            "id": "f6ae5d29-b631-4a79-8cb0-2fcc5aca5e61",
-            "label": "oberrysingular0001_png",
+            "type": "Sprite",
+            "id": "d0b2fec2-75d8-474a-b757-6ea67155314b",
+            "label": "sprite_1",
             "texture": {
                 "key": "collectables",
                 "frame": "oberrysingular0001.png"
             },
-            "x": 0,
-            "y": 0
+            "animationPlayMethod": 1,
+            "animationKey": "oberrysingular",
+            "animationCustomConfig": true,
+            "animationFrameRate": 90,
+            "animationPreview": true,
+            "list": [
+                {
+                    "type": "b2Body",
+                    "id": "00bb1714-044b-4918-af6b-7335a9dc8815",
+                    "label": "body",
+                    "list": [
+                        {
+                            "type": "b2BoxShape",
+                            "id": "d1370d28-9acd-4293-a728-24a9b17de822",
+                            "label": "shape",
+                            "filterCategoryBits": 8,
+                            "filterMaskBits": 2,
+                            "customColor": "#f0fe6d",
+                            "isSensor": true,
+                            "halfWidth": 25.5,
+                            "halfHeight": 41
+                        }
+                    ]
+                }
+            ]
         }
     ],
+    "plainObjects": [],
     "meta": {
-        "app": "Phaser Editor 2D - Scene Editor",
-        "url": "https://phasereditor2d.com",
-        "contentType": "phasereditor2d.core.scene.SceneContentType"
+        "app": "Phaser Editor - Scene Editor",
+        "url": "https://phaser.io/editor",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 5
     }
 }

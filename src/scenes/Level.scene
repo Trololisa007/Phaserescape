@@ -107,7 +107,7 @@
                         "material"
                     ],
                     "label": "ground_3",
-                    "material": "zeroFriction",
+                    "material": "wall",
                     "x": -32,
                     "y": 384,
                     "angle": -90,
@@ -126,7 +126,7 @@
                         "material"
                     ],
                     "label": "ground_4",
-                    "material": "zeroFriction",
+                    "material": "wall",
                     "x": 1552,
                     "y": 416,
                     "angle": -90,
@@ -326,7 +326,10 @@
             "scaleY": 0.6201078482376692,
             "angle": 8,
             "animationPlayMethod": 1,
-            "animationKey": "Symbol"
+            "animationKey": "Symbol",
+            "animationCustomConfig": true,
+            "animationFrameRate": 90,
+            "animationRepeatDelay": 1500
         },
         {
             "type": "Sprite",
@@ -340,7 +343,9 @@
             "scaleX": 0.45999045763456825,
             "scaleY": 0.45999045763456825,
             "animationPlayMethod": 1,
-            "animationKey": "inputExample"
+            "animationKey": "inputExample",
+            "animationCustomConfig": true,
+            "animationFrameRate": 2
         },
         {
             "type": "Image",
@@ -398,7 +403,8 @@
                 "x",
                 "y"
             ],
-            "label": "oberrysingular0001_png",
+            "label": "oberry1",
+            "displayName": "oberry1",
             "x": 1292,
             "y": 225
         },
@@ -421,6 +427,29 @@
             },
             "x": 751,
             "y": 496
+        },
+        {
+            "prefabId": "99b0e687-290a-4664-bcde-aa7cb78224b5",
+            "id": "f98221ad-103a-4879-b049-4f42c22c5eea",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "sprite_2",
+            "x": 89,
+            "y": 788
+        },
+        {
+            "prefabId": "2e3ea0ce-1547-4eba-aa80-9e8d29867ef6",
+            "id": "234fe40e-3329-40d6-a5e9-0d16a1a4a35e",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "oberry2",
+            "displayName": "oberry2",
+            "x": 64,
+            "y": 526
         }
     ],
     "plainObjects": [],

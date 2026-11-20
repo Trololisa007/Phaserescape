@@ -35,6 +35,7 @@
                             "label": "shape",
                             "friction": 1.5,
                             "restitution": 0.2,
+                            "filterCategoryBits": 2,
                             "density": 3,
                             "radius": 64.5
                         }
