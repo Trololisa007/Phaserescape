@@ -1308,6 +1308,856 @@
             "skipMissedFrames": true,
             "repeat": -1,
             "randomFrame": false
+        },
+        {
+            "key": "gate",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "gate",
+                    "frame": "Symbol 340001.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "gate",
+                    "frame": "Symbol 340002.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "gate",
+                    "frame": "Symbol 340003.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "gate",
+                    "frame": "Symbol 340004.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "gate",
+                    "frame": "Symbol 340005.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "gate",
+                    "frame": "Symbol 340006.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "gate",
+                    "frame": "Symbol 340007.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "gate",
+                    "frame": "Symbol 340008.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "gate",
+                    "frame": "Symbol 340009.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "gate",
+                    "frame": "Symbol 340010.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "gate",
+                    "frame": "Symbol 340011.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "gate",
+                    "frame": "Symbol 340012.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "gate",
+                    "frame": "Symbol 340013.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "gate",
+                    "frame": "Symbol 340014.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "gate",
+                    "frame": "Symbol 340015.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "gate",
+                    "frame": "Symbol 340016.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "gate",
+                    "frame": "Symbol 340017.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "gate",
+                    "frame": "Symbol 340018.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "gate",
+                    "frame": "Symbol 340019.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "gate",
+                    "frame": "Symbol 340020.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "gate",
+                    "frame": "Symbol 340021.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "gate",
+                    "frame": "Symbol 340022.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "gate",
+                    "frame": "Symbol 340023.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "gate",
+                    "frame": "Symbol 340024.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "gate",
+                    "frame": "Symbol 340025.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "gate",
+                    "frame": "Symbol 340026.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "gate",
+                    "frame": "Symbol 340027.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "gate",
+                    "frame": "Symbol 340028.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "gate",
+                    "frame": "Symbol 340029.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "gate",
+                    "frame": "Symbol 340030.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "gate",
+                    "frame": "Symbol 340031.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "gate",
+                    "frame": "Symbol 340032.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "gate",
+                    "frame": "Symbol 340033.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "gate",
+                    "frame": "Symbol 340034.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "gate",
+                    "frame": "Symbol 340035.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "gate",
+                    "frame": "Symbol 340036.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "gate",
+                    "frame": "Symbol 340037.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "gate",
+                    "frame": "Symbol 340038.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "gate",
+                    "frame": "Symbol 340039.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "gate",
+                    "frame": "Symbol 340040.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "gate",
+                    "frame": "Symbol 340041.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "gate",
+                    "frame": "Symbol 340042.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "gate",
+                    "frame": "Symbol 340043.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "gate",
+                    "frame": "Symbol 340044.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "gate",
+                    "frame": "Symbol 340045.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "gate",
+                    "frame": "Symbol 340046.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "gate",
+                    "frame": "Symbol 340047.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "gate",
+                    "frame": "Symbol 340048.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "gate",
+                    "frame": "Symbol 340049.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "gate",
+                    "frame": "Symbol 340050.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "gate",
+                    "frame": "Symbol 340051.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "gate",
+                    "frame": "Symbol 340052.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "gate",
+                    "frame": "Symbol 340053.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "gate",
+                    "frame": "Symbol 340054.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "gate",
+                    "frame": "Symbol 340055.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "gate",
+                    "frame": "Symbol 340056.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "gate",
+                    "frame": "Symbol 340057.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "gate",
+                    "frame": "Symbol 340058.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "gate",
+                    "frame": "Symbol 340059.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "gate",
+                    "frame": "Symbol 340060.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "gate",
+                    "frame": "Symbol 340061.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "gate",
+                    "frame": "Symbol 340062.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "gate",
+                    "frame": "Symbol 340063.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "gate",
+                    "frame": "Symbol 340064.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "gate",
+                    "frame": "Symbol 340065.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "gate",
+                    "frame": "Symbol 340066.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "gate",
+                    "frame": "Symbol 340067.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "gate",
+                    "frame": "Symbol 340068.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "gate",
+                    "frame": "Symbol 340069.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "gate",
+                    "frame": "Symbol 340070.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "gate",
+                    "frame": "Symbol 340071.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "gate",
+                    "frame": "Symbol 340072.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "gate",
+                    "frame": "Symbol 340073.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "gate",
+                    "frame": "Symbol 340074.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "gate",
+                    "frame": "Symbol 340075.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "gate",
+                    "frame": "Symbol 340076.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "gate",
+                    "frame": "Symbol 340077.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "gate",
+                    "frame": "Symbol 340078.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "gate",
+                    "frame": "Symbol 340079.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "gate",
+                    "frame": "Symbol 340080.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "gate",
+                    "frame": "Symbol 340081.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "gate",
+                    "frame": "Symbol 340082.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "gate",
+                    "frame": "Symbol 340083.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "gate",
+                    "frame": "Symbol 340084.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "gate",
+                    "frame": "Symbol 340085.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "gate",
+                    "frame": "Symbol 340086.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "gate",
+                    "frame": "Symbol 340087.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "gate",
+                    "frame": "Symbol 340088.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "gate",
+                    "frame": "Symbol 340089.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "gate",
+                    "frame": "Symbol 340090.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "gate",
+                    "frame": "Symbol 340091.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "gate",
+                    "frame": "Symbol 340092.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "gate",
+                    "frame": "Symbol 340093.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "gate",
+                    "frame": "Symbol 340094.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "gate",
+                    "frame": "Symbol 340095.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "gate",
+                    "frame": "Symbol 340096.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "gate",
+                    "frame": "Symbol 340097.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "gate",
+                    "frame": "Symbol 340098.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "gate",
+                    "frame": "Symbol 340099.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "gate",
+                    "frame": "Symbol 340100.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "gate",
+                    "frame": "Symbol 340101.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "gate",
+                    "frame": "Symbol 340102.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "gate",
+                    "frame": "Symbol 340103.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "gate",
+                    "frame": "Symbol 340104.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "gate",
+                    "frame": "Symbol 340105.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "gate",
+                    "frame": "Symbol 340106.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "gate",
+                    "frame": "Symbol 340107.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "gate",
+                    "frame": "Symbol 340108.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "gate",
+                    "frame": "Symbol 340109.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "gate",
+                    "frame": "Symbol 340110.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "gate",
+                    "frame": "Symbol 340111.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "gate",
+                    "frame": "Symbol 340112.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "gate",
+                    "frame": "Symbol 340113.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "gate",
+                    "frame": "Symbol 340114.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "gate",
+                    "frame": "Symbol 340115.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "gate",
+                    "frame": "Symbol 340116.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "gate",
+                    "frame": "Symbol 340117.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "gate",
+                    "frame": "Symbol 340118.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "gate",
+                    "frame": "Symbol 340119.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "gate",
+                    "frame": "Symbol 340120.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "gate",
+                    "frame": "Symbol 340121.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "gate",
+                    "frame": "Symbol 340122.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "gate",
+                    "frame": "Symbol 340123.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "gate",
+                    "frame": "Symbol 340124.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "gate",
+                    "frame": "Symbol 340125.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "gate",
+                    "frame": "Symbol 340126.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "gate",
+                    "frame": "Symbol 340127.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "gate",
+                    "frame": "Symbol 340128.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "gate",
+                    "frame": "Symbol 340129.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "gate",
+                    "frame": "Symbol 340130.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "gate",
+                    "frame": "Symbol 340131.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "gate",
+                    "frame": "Symbol 340132.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "gate",
+                    "frame": "Symbol 340133.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "gate",
+                    "frame": "Symbol 340134.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "gate",
+                    "frame": "Symbol 340135.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "gate",
+                    "frame": "Symbol 340136.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "gate",
+                    "frame": "Symbol 340137.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "gate",
+                    "frame": "Symbol 340138.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "gate",
+                    "frame": "Symbol 340139.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "gate",
+                    "frame": "Symbol 340140.png",
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 45,
+            "skipMissedFrames": true,
+            "repeat": -1,
+            "randomFrame": false
         }
     ],
     "globalTimeScale": 1,

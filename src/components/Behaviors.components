@@ -1,5 +1,15 @@
 {
-    "components": [],
+    "components": [
+        {
+            "name": "MouseJointListener",
+            "displayName": "mouseListener",
+            "objectDisplayFormat": "",
+            "baseClass": "",
+            "gameObjectType": "SpineGameObject",
+            "generateGameObjectField": true,
+            "properties": []
+        }
+    ],
     "meta": {
         "app": "Phaser Editor 2D - User Components Editor",
         "url": "https://phasereditor2d.com",

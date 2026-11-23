@@ -1,0 +1,5911 @@
+{
+	"textures": [
+		{
+			"image": "gate-0.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 1949,
+				"h": 1715
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "Symbol 340007.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 160,
+						"h": 286
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 2,
+						"w": 160,
+						"h": 284
+					},
+					"frame": {
+						"x": 0,
+						"y": 0,
+						"w": 160,
+						"h": 284
+					}
+				},
+				{
+					"filename": "Symbol 340008.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 160,
+						"h": 286
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 2,
+						"w": 160,
+						"h": 284
+					},
+					"frame": {
+						"x": 0,
+						"y": 284,
+						"w": 160,
+						"h": 284
+					}
+				},
+				{
+					"filename": "Symbol 340009.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 160,
+						"h": 286
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 2,
+						"w": 160,
+						"h": 284
+					},
+					"frame": {
+						"x": 160,
+						"y": 0,
+						"w": 160,
+						"h": 284
+					}
+				},
+				{
+					"filename": "Symbol 340010.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 160,
+						"h": 286
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 2,
+						"w": 160,
+						"h": 284
+					},
+					"frame": {
+						"x": 0,
+						"y": 568,
+						"w": 160,
+						"h": 284
+					}
+				},
+				{
+					"filename": "Symbol 340011.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 160,
+						"h": 286
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 2,
+						"w": 160,
+						"h": 284
+					},
+					"frame": {
+						"x": 160,
+						"y": 284,
+						"w": 160,
+						"h": 284
+					}
+				},
+				{
+					"filename": "Symbol 340012.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 160,
+						"h": 286
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 2,
+						"w": 160,
+						"h": 284
+					},
+					"frame": {
+						"x": 320,
+						"y": 0,
+						"w": 160,
+						"h": 284
+					}
+				},
+				{
+					"filename": "Symbol 340013.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 160,
+						"h": 286
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 2,
+						"w": 160,
+						"h": 284
+					},
+					"frame": {
+						"x": 0,
+						"y": 852,
+						"w": 160,
+						"h": 284
+					}
+				},
+				{
+					"filename": "Symbol 340014.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 160,
+						"h": 286
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 2,
+						"w": 160,
+						"h": 284
+					},
+					"frame": {
+						"x": 160,
+						"y": 568,
+						"w": 160,
+						"h": 284
+					}
+				},
+				{
+					"filename": "Symbol 340015.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 160,
+						"h": 286
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 2,
+						"w": 160,
+						"h": 284
+					},
+					"frame": {
+						"x": 320,
+						"y": 284,
+						"w": 160,
+						"h": 284
+					}
+				},
+				{
+					"filename": "Symbol 340016.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 160,
+						"h": 286
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 2,
+						"w": 160,
+						"h": 284
+					},
+					"frame": {
+						"x": 480,
+						"y": 0,
+						"w": 160,
+						"h": 284
+					}
+				},
+				{
+					"filename": "Symbol 340066.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 160,
+						"h": 286
+					},
+					"spriteSourceSize": {
+						"x": 8,
+						"y": 2,
+						"w": 152,
+						"h": 284
+					},
+					"frame": {
+						"x": 0,
+						"y": 1136,
+						"w": 152,
+						"h": 284
+					}
+				},
+				{
+					"filename": "Symbol 340067.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 160,
+						"h": 286
+					},
+					"spriteSourceSize": {
+						"x": 8,
+						"y": 2,
+						"w": 152,
+						"h": 284
+					},
+					"frame": {
+						"x": 160,
+						"y": 852,
+						"w": 152,
+						"h": 284
+					}
+				},
+				{
+					"filename": "Symbol 340068.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 160,
+						"h": 286
+					},
+					"spriteSourceSize": {
+						"x": 8,
+						"y": 2,
+						"w": 152,
+						"h": 284
+					},
+					"frame": {
+						"x": 320,
+						"y": 568,
+						"w": 152,
+						"h": 284
+					}
+				},
+				{
+					"filename": "Symbol 340069.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 160,
+						"h": 286
+					},
+					"spriteSourceSize": {
+						"x": 8,
+						"y": 2,
+						"w": 152,
+						"h": 284
+					},
+					"frame": {
+						"x": 480,
+						"y": 284,
+						"w": 152,
+						"h": 284
+					}
+				},
+				{
+					"filename": "Symbol 340070.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 160,
+						"h": 286
+					},
+					"spriteSourceSize": {
+						"x": 8,
+						"y": 2,
+						"w": 152,
+						"h": 284
+					},
+					"frame": {
+						"x": 640,
+						"y": 0,
+						"w": 152,
+						"h": 284
+					}
+				},
+				{
+					"filename": "Symbol 340071.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 160,
+						"h": 286
+					},
+					"spriteSourceSize": {
+						"x": 8,
+						"y": 2,
+						"w": 152,
+						"h": 284
+					},
+					"frame": {
+						"x": 0,
+						"y": 1420,
+						"w": 152,
+						"h": 284
+					}
+				},
+				{
+					"filename": "Symbol 340072.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 160,
+						"h": 286
+					},
+					"spriteSourceSize": {
+						"x": 8,
+						"y": 2,
+						"w": 152,
+						"h": 284
+					},
+					"frame": {
+						"x": 152,
+						"y": 1136,
+						"w": 152,
+						"h": 284
+					}
+				},
+				{
+					"filename": "Symbol 340036.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 160,
+						"h": 286
+					},
+					"spriteSourceSize": {
+						"x": 11,
+						"y": 2,
+						"w": 149,
+						"h": 284
+					},
+					"frame": {
+						"x": 312,
+						"y": 852,
+						"w": 149,
+						"h": 284
+					}
+				},
+				{
+					"filename": "Symbol 340024.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 160,
+						"h": 286
+					},
+					"spriteSourceSize": {
+						"x": 12,
+						"y": 2,
+						"w": 148,
+						"h": 284
+					},
+					"frame": {
+						"x": 472,
+						"y": 568,
+						"w": 148,
+						"h": 284
+					}
+				},
+				{
+					"filename": "Symbol 340025.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 160,
+						"h": 286
+					},
+					"spriteSourceSize": {
+						"x": 12,
+						"y": 2,
+						"w": 148,
+						"h": 284
+					},
+					"frame": {
+						"x": 632,
+						"y": 284,
+						"w": 148,
+						"h": 284
+					}
+				},
+				{
+					"filename": "Symbol 340026.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 160,
+						"h": 286
+					},
+					"spriteSourceSize": {
+						"x": 12,
+						"y": 2,
+						"w": 148,
+						"h": 284
+					},
+					"frame": {
+						"x": 792,
+						"y": 0,
+						"w": 148,
+						"h": 284
+					}
+				},
+				{
+					"filename": "Symbol 340034.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 160,
+						"h": 286
+					},
+					"spriteSourceSize": {
+						"x": 12,
+						"y": 2,
+						"w": 148,
+						"h": 284
+					},
+					"frame": {
+						"x": 152,
+						"y": 1420,
+						"w": 148,
+						"h": 284
+					}
+				},
+				{
+					"filename": "Symbol 340035.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 160,
+						"h": 286
+					},
+					"spriteSourceSize": {
+						"x": 12,
+						"y": 2,
+						"w": 148,
+						"h": 284
+					},
+					"frame": {
+						"x": 304,
+						"y": 1136,
+						"w": 148,
+						"h": 284
+					}
+				},
+				{
+					"filename": "Symbol 340037.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 160,
+						"h": 286
+					},
+					"spriteSourceSize": {
+						"x": 12,
+						"y": 2,
+						"w": 148,
+						"h": 284
+					},
+					"frame": {
+						"x": 461,
+						"y": 852,
+						"w": 148,
+						"h": 284
+					}
+				},
+				{
+					"filename": "Symbol 340062.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 160,
+						"h": 286
+					},
+					"spriteSourceSize": {
+						"x": 12,
+						"y": 3,
+						"w": 148,
+						"h": 283
+					},
+					"frame": {
+						"x": 620,
+						"y": 568,
+						"w": 148,
+						"h": 283
+					}
+				},
+				{
+					"filename": "Symbol 340038.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 160,
+						"h": 286
+					},
+					"spriteSourceSize": {
+						"x": 13,
+						"y": 2,
+						"w": 147,
+						"h": 284
+					},
+					"frame": {
+						"x": 780,
+						"y": 284,
+						"w": 147,
+						"h": 284
+					}
+				},
+				{
+					"filename": "Symbol 340039.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 160,
+						"h": 286
+					},
+					"spriteSourceSize": {
+						"x": 13,
+						"y": 2,
+						"w": 147,
+						"h": 284
+					},
+					"frame": {
+						"x": 940,
+						"y": 0,
+						"w": 147,
+						"h": 284
+					}
+				},
+				{
+					"filename": "Symbol 340076.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 160,
+						"h": 286
+					},
+					"spriteSourceSize": {
+						"x": 12,
+						"y": 4,
+						"w": 148,
+						"h": 282
+					},
+					"frame": {
+						"x": 300,
+						"y": 1420,
+						"w": 148,
+						"h": 282
+					}
+				},
+				{
+					"filename": "Symbol 340060.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 160,
+						"h": 286
+					},
+					"spriteSourceSize": {
+						"x": 13,
+						"y": 3,
+						"w": 147,
+						"h": 283
+					},
+					"frame": {
+						"x": 452,
+						"y": 1136,
+						"w": 147,
+						"h": 283
+					}
+				},
+				{
+					"filename": "Symbol 340061.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 160,
+						"h": 286
+					},
+					"spriteSourceSize": {
+						"x": 13,
+						"y": 3,
+						"w": 147,
+						"h": 283
+					},
+					"frame": {
+						"x": 768,
+						"y": 568,
+						"w": 147,
+						"h": 283
+					}
+				},
+				{
+					"filename": "Symbol 340040.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 160,
+						"h": 286
+					},
+					"spriteSourceSize": {
+						"x": 14,
+						"y": 3,
+						"w": 146,
+						"h": 283
+					},
+					"frame": {
+						"x": 927,
+						"y": 284,
+						"w": 146,
+						"h": 283
+					}
+				},
+				{
+					"filename": "Symbol 340059.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 160,
+						"h": 286
+					},
+					"spriteSourceSize": {
+						"x": 14,
+						"y": 4,
+						"w": 146,
+						"h": 282
+					},
+					"frame": {
+						"x": 1087,
+						"y": 0,
+						"w": 146,
+						"h": 282
+					}
+				},
+				{
+					"filename": "Symbol 340077.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 160,
+						"h": 286
+					},
+					"spriteSourceSize": {
+						"x": 14,
+						"y": 4,
+						"w": 146,
+						"h": 282
+					},
+					"frame": {
+						"x": 1233,
+						"y": 0,
+						"w": 146,
+						"h": 282
+					}
+				},
+				{
+					"filename": "Symbol 340058.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 160,
+						"h": 286
+					},
+					"spriteSourceSize": {
+						"x": 15,
+						"y": 4,
+						"w": 145,
+						"h": 282
+					},
+					"frame": {
+						"x": 1379,
+						"y": 0,
+						"w": 145,
+						"h": 282
+					}
+				},
+				{
+					"filename": "Symbol 340041.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 160,
+						"h": 286
+					},
+					"spriteSourceSize": {
+						"x": 15,
+						"y": 3,
+						"w": 145,
+						"h": 283
+					},
+					"frame": {
+						"x": 1524,
+						"y": 0,
+						"w": 145,
+						"h": 283
+					}
+				},
+				{
+					"filename": "Symbol 340042.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 160,
+						"h": 286
+					},
+					"spriteSourceSize": {
+						"x": 15,
+						"y": 3,
+						"w": 145,
+						"h": 283
+					},
+					"frame": {
+						"x": 1669,
+						"y": 0,
+						"w": 145,
+						"h": 283
+					}
+				},
+				{
+					"filename": "Symbol 340090.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 160,
+						"h": 286
+					},
+					"spriteSourceSize": {
+						"x": 25,
+						"y": 14,
+						"w": 135,
+						"h": 272
+					},
+					"frame": {
+						"x": 1814,
+						"y": 0,
+						"w": 135,
+						"h": 272
+					}
+				},
+				{
+					"filename": "Symbol 340043.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 160,
+						"h": 286
+					},
+					"spriteSourceSize": {
+						"x": 16,
+						"y": 4,
+						"w": 144,
+						"h": 282
+					},
+					"frame": {
+						"x": 1073,
+						"y": 284,
+						"w": 144,
+						"h": 282
+					}
+				},
+				{
+					"filename": "Symbol 340057.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 160,
+						"h": 286
+					},
+					"spriteSourceSize": {
+						"x": 16,
+						"y": 4,
+						"w": 144,
+						"h": 282
+					},
+					"frame": {
+						"x": 1217,
+						"y": 282,
+						"w": 144,
+						"h": 282
+					}
+				},
+				{
+					"filename": "Symbol 340044.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 160,
+						"h": 286
+					},
+					"spriteSourceSize": {
+						"x": 17,
+						"y": 4,
+						"w": 143,
+						"h": 282
+					},
+					"frame": {
+						"x": 1361,
+						"y": 282,
+						"w": 143,
+						"h": 282
+					}
+				},
+				{
+					"filename": "Symbol 340045.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 160,
+						"h": 286
+					},
+					"spriteSourceSize": {
+						"x": 18,
+						"y": 4,
+						"w": 142,
+						"h": 282
+					},
+					"frame": {
+						"x": 1504,
+						"y": 283,
+						"w": 142,
+						"h": 282
+					}
+				},
+				{
+					"filename": "Symbol 340048.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 160,
+						"h": 286
+					},
+					"spriteSourceSize": {
+						"x": 19,
+						"y": 6,
+						"w": 141,
+						"h": 280
+					},
+					"frame": {
+						"x": 1646,
+						"y": 283,
+						"w": 141,
+						"h": 280
+					}
+				},
+				{
+					"filename": "Symbol 340082.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 160,
+						"h": 286
+					},
+					"spriteSourceSize": {
+						"x": 19,
+						"y": 7,
+						"w": 141,
+						"h": 279
+					},
+					"frame": {
+						"x": 1787,
+						"y": 283,
+						"w": 141,
+						"h": 279
+					}
+				},
+				{
+					"filename": "Symbol 340083.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 160,
+						"h": 286
+					},
+					"spriteSourceSize": {
+						"x": 19,
+						"y": 8,
+						"w": 141,
+						"h": 278
+					},
+					"frame": {
+						"x": 915,
+						"y": 568,
+						"w": 141,
+						"h": 278
+					}
+				},
+				{
+					"filename": "Symbol 340084.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 160,
+						"h": 286
+					},
+					"spriteSourceSize": {
+						"x": 20,
+						"y": 8,
+						"w": 140,
+						"h": 278
+					},
+					"frame": {
+						"x": 1056,
+						"y": 567,
+						"w": 140,
+						"h": 278
+					}
+				},
+				{
+					"filename": "Symbol 340085.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 160,
+						"h": 286
+					},
+					"spriteSourceSize": {
+						"x": 21,
+						"y": 9,
+						"w": 139,
+						"h": 277
+					},
+					"frame": {
+						"x": 1196,
+						"y": 566,
+						"w": 139,
+						"h": 277
+					}
+				},
+				{
+					"filename": "Symbol 340086.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 160,
+						"h": 286
+					},
+					"spriteSourceSize": {
+						"x": 22,
+						"y": 10,
+						"w": 138,
+						"h": 276
+					},
+					"frame": {
+						"x": 1335,
+						"y": 564,
+						"w": 138,
+						"h": 276
+					}
+				},
+				{
+					"filename": "Symbol 340087.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 160,
+						"h": 286
+					},
+					"spriteSourceSize": {
+						"x": 23,
+						"y": 11,
+						"w": 137,
+						"h": 275
+					},
+					"frame": {
+						"x": 1473,
+						"y": 565,
+						"w": 137,
+						"h": 275
+					}
+				},
+				{
+					"filename": "Symbol 340088.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 160,
+						"h": 286
+					},
+					"spriteSourceSize": {
+						"x": 24,
+						"y": 11,
+						"w": 136,
+						"h": 275
+					},
+					"frame": {
+						"x": 1610,
+						"y": 565,
+						"w": 136,
+						"h": 275
+					}
+				},
+				{
+					"filename": "Symbol 340089.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 160,
+						"h": 286
+					},
+					"spriteSourceSize": {
+						"x": 24,
+						"y": 12,
+						"w": 136,
+						"h": 274
+					},
+					"frame": {
+						"x": 1746,
+						"y": 563,
+						"w": 136,
+						"h": 274
+					}
+				},
+				{
+					"filename": "Symbol 340091.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 160,
+						"h": 286
+					},
+					"spriteSourceSize": {
+						"x": 26,
+						"y": 14,
+						"w": 134,
+						"h": 272
+					},
+					"frame": {
+						"x": 609,
+						"y": 852,
+						"w": 134,
+						"h": 272
+					}
+				},
+				{
+					"filename": "Symbol 340092.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 160,
+						"h": 286
+					},
+					"spriteSourceSize": {
+						"x": 27,
+						"y": 15,
+						"w": 133,
+						"h": 271
+					},
+					"frame": {
+						"x": 743,
+						"y": 851,
+						"w": 133,
+						"h": 271
+					}
+				},
+				{
+					"filename": "Symbol 340093.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 160,
+						"h": 286
+					},
+					"spriteSourceSize": {
+						"x": 27,
+						"y": 16,
+						"w": 133,
+						"h": 270
+					},
+					"frame": {
+						"x": 876,
+						"y": 851,
+						"w": 133,
+						"h": 270
+					}
+				},
+				{
+					"filename": "Symbol 340094.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 160,
+						"h": 286
+					},
+					"spriteSourceSize": {
+						"x": 28,
+						"y": 17,
+						"w": 132,
+						"h": 269
+					},
+					"frame": {
+						"x": 1009,
+						"y": 846,
+						"w": 132,
+						"h": 269
+					}
+				},
+				{
+					"filename": "Symbol 340095.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 160,
+						"h": 286
+					},
+					"spriteSourceSize": {
+						"x": 28,
+						"y": 19,
+						"w": 132,
+						"h": 267
+					},
+					"frame": {
+						"x": 1141,
+						"y": 845,
+						"w": 132,
+						"h": 267
+					}
+				},
+				{
+					"filename": "Symbol 340111.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 160,
+						"h": 286
+					},
+					"spriteSourceSize": {
+						"x": 30,
+						"y": 53,
+						"w": 130,
+						"h": 233
+					},
+					"frame": {
+						"x": 1273,
+						"y": 843,
+						"w": 130,
+						"h": 233
+					}
+				},
+				{
+					"filename": "Symbol 340112.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 160,
+						"h": 286
+					},
+					"spriteSourceSize": {
+						"x": 30,
+						"y": 56,
+						"w": 130,
+						"h": 230
+					},
+					"frame": {
+						"x": 1403,
+						"y": 840,
+						"w": 130,
+						"h": 230
+					}
+				},
+				{
+					"filename": "Symbol 340113.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 160,
+						"h": 286
+					},
+					"spriteSourceSize": {
+						"x": 29,
+						"y": 59,
+						"w": 131,
+						"h": 227
+					},
+					"frame": {
+						"x": 1533,
+						"y": 840,
+						"w": 131,
+						"h": 227
+					}
+				},
+				{
+					"filename": "Symbol 340114.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 160,
+						"h": 286
+					},
+					"spriteSourceSize": {
+						"x": 28,
+						"y": 62,
+						"w": 132,
+						"h": 224
+					},
+					"frame": {
+						"x": 1664,
+						"y": 840,
+						"w": 132,
+						"h": 224
+					}
+				},
+				{
+					"filename": "Symbol 340115.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 160,
+						"h": 286
+					},
+					"spriteSourceSize": {
+						"x": 28,
+						"y": 66,
+						"w": 132,
+						"h": 220
+					},
+					"frame": {
+						"x": 1796,
+						"y": 837,
+						"w": 132,
+						"h": 220
+					}
+				},
+				{
+					"filename": "Symbol 340116.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 160,
+						"h": 286
+					},
+					"spriteSourceSize": {
+						"x": 27,
+						"y": 69,
+						"w": 133,
+						"h": 217
+					},
+					"frame": {
+						"x": 599,
+						"y": 1136,
+						"w": 133,
+						"h": 217
+					}
+				},
+				{
+					"filename": "Symbol 340117.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 160,
+						"h": 286
+					},
+					"spriteSourceSize": {
+						"x": 26,
+						"y": 72,
+						"w": 134,
+						"h": 214
+					},
+					"frame": {
+						"x": 448,
+						"y": 1420,
+						"w": 134,
+						"h": 214
+					}
+				},
+				{
+					"filename": "Symbol 340118.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 160,
+						"h": 286
+					},
+					"spriteSourceSize": {
+						"x": 26,
+						"y": 76,
+						"w": 134,
+						"h": 210
+					},
+					"frame": {
+						"x": 582,
+						"y": 1419,
+						"w": 134,
+						"h": 210
+					}
+				},
+				{
+					"filename": "Symbol 340121.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 160,
+						"h": 286
+					},
+					"spriteSourceSize": {
+						"x": 14,
+						"y": 188,
+						"w": 146,
+						"h": 86
+					},
+					"frame": {
+						"x": 582,
+						"y": 1629,
+						"w": 146,
+						"h": 86
+					}
+				},
+				{
+					"filename": "gate0119.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 77,
+						"h": 137
+					},
+					"spriteSourceSize": {
+						"x": 8,
+						"y": 56,
+						"w": 69,
+						"h": 81
+					},
+					"frame": {
+						"x": 448,
+						"y": 1634,
+						"w": 69,
+						"h": 81
+					}
+				},
+				{
+					"filename": "gate0096.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 77,
+						"h": 137
+					},
+					"spriteSourceSize": {
+						"x": 13,
+						"y": 9,
+						"w": 64,
+						"h": 128
+					},
+					"frame": {
+						"x": 1882,
+						"y": 562,
+						"w": 64,
+						"h": 128
+					}
+				},
+				{
+					"filename": "gate0098.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 77,
+						"h": 137
+					},
+					"spriteSourceSize": {
+						"x": 14,
+						"y": 10,
+						"w": 63,
+						"h": 127
+					},
+					"frame": {
+						"x": 1882,
+						"y": 690,
+						"w": 63,
+						"h": 127
+					}
+				},
+				{
+					"filename": "Symbol 340119.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 160,
+						"h": 286
+					},
+					"spriteSourceSize": {
+						"x": 18,
+						"y": 118,
+						"w": 142,
+						"h": 168
+					},
+					"frame": {
+						"x": 732,
+						"y": 1124,
+						"w": 142,
+						"h": 168
+					}
+				},
+				{
+					"filename": "Symbol 340133.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 160,
+						"h": 286
+					},
+					"spriteSourceSize": {
+						"x": 14,
+						"y": 188,
+						"w": 146,
+						"h": 86
+					},
+					"frame": {
+						"x": 732,
+						"y": 1292,
+						"w": 146,
+						"h": 86
+					}
+				},
+				{
+					"filename": "Symbol 340120.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 160,
+						"h": 286
+					},
+					"spriteSourceSize": {
+						"x": 14,
+						"y": 156,
+						"w": 146,
+						"h": 125
+					},
+					"frame": {
+						"x": 716,
+						"y": 1378,
+						"w": 146,
+						"h": 125
+					}
+				},
+				{
+					"filename": "Symbol 340128.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 160,
+						"h": 286
+					},
+					"spriteSourceSize": {
+						"x": 14,
+						"y": 174,
+						"w": 146,
+						"h": 95
+					},
+					"frame": {
+						"x": 716,
+						"y": 1503,
+						"w": 146,
+						"h": 95
+					}
+				},
+				{
+					"filename": "gate0108.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 77,
+						"h": 137
+					},
+					"spriteSourceSize": {
+						"x": 14,
+						"y": 20,
+						"w": 63,
+						"h": 117
+					},
+					"frame": {
+						"x": 728,
+						"y": 1598,
+						"w": 63,
+						"h": 117
+					}
+				},
+				{
+					"filename": "gate0109.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 77,
+						"h": 137
+					},
+					"spriteSourceSize": {
+						"x": 14,
+						"y": 22,
+						"w": 63,
+						"h": 115
+					},
+					"frame": {
+						"x": 791,
+						"y": 1598,
+						"w": 63,
+						"h": 115
+					}
+				},
+				{
+					"filename": "Symbol 340136.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 160,
+						"h": 286
+					},
+					"spriteSourceSize": {
+						"x": 14,
+						"y": 188,
+						"w": 146,
+						"h": 86
+					},
+					"frame": {
+						"x": 1273,
+						"y": 1076,
+						"w": 146,
+						"h": 86
+					}
+				},
+				{
+					"filename": "Symbol 340134.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 160,
+						"h": 286
+					},
+					"spriteSourceSize": {
+						"x": 13,
+						"y": 179,
+						"w": 147,
+						"h": 92
+					},
+					"frame": {
+						"x": 1419,
+						"y": 1070,
+						"w": 147,
+						"h": 92
+					}
+				},
+				{
+					"filename": "Symbol 340127.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 160,
+						"h": 286
+					},
+					"spriteSourceSize": {
+						"x": 14,
+						"y": 176,
+						"w": 146,
+						"h": 94
+					},
+					"frame": {
+						"x": 1566,
+						"y": 1067,
+						"w": 146,
+						"h": 94
+					}
+				},
+				{
+					"filename": "Symbol 340129.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 160,
+						"h": 286
+					},
+					"spriteSourceSize": {
+						"x": 13,
+						"y": 177,
+						"w": 147,
+						"h": 93
+					},
+					"frame": {
+						"x": 1712,
+						"y": 1064,
+						"w": 147,
+						"h": 93
+					}
+				},
+				{
+					"filename": "gate0040.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 77,
+						"h": 137
+					},
+					"spriteSourceSize": {
+						"x": 6,
+						"y": 1,
+						"w": 71,
+						"h": 136
+					},
+					"frame": {
+						"x": 1859,
+						"y": 1057,
+						"w": 71,
+						"h": 136
+					}
+				},
+				{
+					"filename": "gate0001.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 77,
+						"h": 137
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 77,
+						"h": 137
+					},
+					"frame": {
+						"x": 862,
+						"y": 1378,
+						"w": 77,
+						"h": 137
+					}
+				},
+				{
+					"filename": "gate0002.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 77,
+						"h": 137
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 77,
+						"h": 137
+					},
+					"frame": {
+						"x": 862,
+						"y": 1515,
+						"w": 77,
+						"h": 137
+					}
+				},
+				{
+					"filename": "gate0003.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 77,
+						"h": 137
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 77,
+						"h": 137
+					},
+					"frame": {
+						"x": 874,
+						"y": 1122,
+						"w": 77,
+						"h": 137
+					}
+				},
+				{
+					"filename": "gate0004.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 77,
+						"h": 137
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 77,
+						"h": 137
+					},
+					"frame": {
+						"x": 951,
+						"y": 1121,
+						"w": 77,
+						"h": 137
+					}
+				},
+				{
+					"filename": "gate0005.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 77,
+						"h": 137
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 77,
+						"h": 137
+					},
+					"frame": {
+						"x": 1028,
+						"y": 1115,
+						"w": 77,
+						"h": 137
+					}
+				},
+				{
+					"filename": "gate0006.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 77,
+						"h": 137
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 77,
+						"h": 137
+					},
+					"frame": {
+						"x": 1105,
+						"y": 1115,
+						"w": 77,
+						"h": 137
+					}
+				},
+				{
+					"filename": "gate0007.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 77,
+						"h": 137
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 77,
+						"h": 137
+					},
+					"frame": {
+						"x": 1182,
+						"y": 1112,
+						"w": 77,
+						"h": 137
+					}
+				},
+				{
+					"filename": "gate0008.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 77,
+						"h": 137
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 77,
+						"h": 137
+					},
+					"frame": {
+						"x": 1259,
+						"y": 1162,
+						"w": 77,
+						"h": 137
+					}
+				},
+				{
+					"filename": "gate0009.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 77,
+						"h": 137
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 77,
+						"h": 137
+					},
+					"frame": {
+						"x": 1336,
+						"y": 1162,
+						"w": 77,
+						"h": 137
+					}
+				},
+				{
+					"filename": "gate0066.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 77,
+						"h": 137
+					},
+					"spriteSourceSize": {
+						"x": 3,
+						"y": 0,
+						"w": 74,
+						"h": 137
+					},
+					"frame": {
+						"x": 1413,
+						"y": 1162,
+						"w": 74,
+						"h": 137
+					}
+				},
+				{
+					"filename": "gate0067.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 77,
+						"h": 137
+					},
+					"spriteSourceSize": {
+						"x": 3,
+						"y": 0,
+						"w": 74,
+						"h": 137
+					},
+					"frame": {
+						"x": 1487,
+						"y": 1162,
+						"w": 74,
+						"h": 137
+					}
+				},
+				{
+					"filename": "gate0107.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 77,
+						"h": 137
+					},
+					"spriteSourceSize": {
+						"x": 15,
+						"y": 19,
+						"w": 62,
+						"h": 118
+					},
+					"frame": {
+						"x": 878,
+						"y": 1259,
+						"w": 62,
+						"h": 118
+					}
+				},
+				{
+					"filename": "gate0037.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 77,
+						"h": 137
+					},
+					"spriteSourceSize": {
+						"x": 5,
+						"y": 0,
+						"w": 72,
+						"h": 137
+					},
+					"frame": {
+						"x": 1561,
+						"y": 1162,
+						"w": 72,
+						"h": 137
+					}
+				},
+				{
+					"filename": "gate0068.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 77,
+						"h": 137
+					},
+					"spriteSourceSize": {
+						"x": 3,
+						"y": 0,
+						"w": 74,
+						"h": 137
+					},
+					"frame": {
+						"x": 1633,
+						"y": 1161,
+						"w": 74,
+						"h": 137
+					}
+				},
+				{
+					"filename": "gate0038.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 77,
+						"h": 137
+					},
+					"spriteSourceSize": {
+						"x": 5,
+						"y": 0,
+						"w": 72,
+						"h": 137
+					},
+					"frame": {
+						"x": 1707,
+						"y": 1161,
+						"w": 72,
+						"h": 137
+					}
+				},
+				{
+					"filename": "gate0069.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 77,
+						"h": 137
+					},
+					"spriteSourceSize": {
+						"x": 3,
+						"y": 0,
+						"w": 74,
+						"h": 137
+					},
+					"frame": {
+						"x": 1779,
+						"y": 1157,
+						"w": 74,
+						"h": 137
+					}
+				},
+				{
+					"filename": "gate0070.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 77,
+						"h": 137
+					},
+					"spriteSourceSize": {
+						"x": 3,
+						"y": 0,
+						"w": 74,
+						"h": 137
+					},
+					"frame": {
+						"x": 1853,
+						"y": 1193,
+						"w": 74,
+						"h": 137
+					}
+				},
+				{
+					"filename": "gate0039.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 77,
+						"h": 137
+					},
+					"spriteSourceSize": {
+						"x": 5,
+						"y": 0,
+						"w": 72,
+						"h": 137
+					},
+					"frame": {
+						"x": 939,
+						"y": 1377,
+						"w": 72,
+						"h": 137
+					}
+				},
+				{
+					"filename": "gate0065.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 77,
+						"h": 137
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 0,
+						"w": 73,
+						"h": 137
+					},
+					"frame": {
+						"x": 939,
+						"y": 1514,
+						"w": 73,
+						"h": 137
+					}
+				},
+				{
+					"filename": "gate0120.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 77,
+						"h": 137
+					},
+					"spriteSourceSize": {
+						"x": 6,
+						"y": 74,
+						"w": 71,
+						"h": 61
+					},
+					"frame": {
+						"x": 599,
+						"y": 1353,
+						"w": 71,
+						"h": 61
+					}
+				},
+				{
+					"filename": "gate0110.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 77,
+						"h": 137
+					},
+					"spriteSourceSize": {
+						"x": 14,
+						"y": 23,
+						"w": 63,
+						"h": 114
+					},
+					"frame": {
+						"x": 940,
+						"y": 1259,
+						"w": 63,
+						"h": 114
+					}
+				},
+				{
+					"filename": "gate0111.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 77,
+						"h": 137
+					},
+					"spriteSourceSize": {
+						"x": 14,
+						"y": 25,
+						"w": 63,
+						"h": 112
+					},
+					"frame": {
+						"x": 1003,
+						"y": 1258,
+						"w": 63,
+						"h": 112
+					}
+				},
+				{
+					"filename": "gate0071.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 77,
+						"h": 137
+					},
+					"spriteSourceSize": {
+						"x": 3,
+						"y": 0,
+						"w": 74,
+						"h": 137
+					},
+					"frame": {
+						"x": 1066,
+						"y": 1252,
+						"w": 74,
+						"h": 137
+					}
+				},
+				{
+					"filename": "gate0072.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 77,
+						"h": 137
+					},
+					"spriteSourceSize": {
+						"x": 3,
+						"y": 0,
+						"w": 74,
+						"h": 137
+					},
+					"frame": {
+						"x": 1140,
+						"y": 1252,
+						"w": 74,
+						"h": 137
+					}
+				},
+				{
+					"filename": "gate0102.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 77,
+						"h": 137
+					},
+					"spriteSourceSize": {
+						"x": 14,
+						"y": 12,
+						"w": 63,
+						"h": 125
+					},
+					"frame": {
+						"x": 1011,
+						"y": 1389,
+						"w": 63,
+						"h": 125
+					}
+				},
+				{
+					"filename": "gate0041.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 77,
+						"h": 137
+					},
+					"spriteSourceSize": {
+						"x": 6,
+						"y": 1,
+						"w": 71,
+						"h": 136
+					},
+					"frame": {
+						"x": 1012,
+						"y": 1514,
+						"w": 71,
+						"h": 136
+					}
+				},
+				{
+					"filename": "gate0103.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 77,
+						"h": 137
+					},
+					"spriteSourceSize": {
+						"x": 15,
+						"y": 13,
+						"w": 62,
+						"h": 124
+					},
+					"frame": {
+						"x": 1074,
+						"y": 1389,
+						"w": 62,
+						"h": 124
+					}
+				},
+				{
+					"filename": "gate0063.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 77,
+						"h": 137
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 1,
+						"w": 73,
+						"h": 136
+					},
+					"frame": {
+						"x": 1136,
+						"y": 1389,
+						"w": 73,
+						"h": 136
+					}
+				},
+				{
+					"filename": "gate0064.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 77,
+						"h": 137
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 1,
+						"w": 73,
+						"h": 136
+					},
+					"frame": {
+						"x": 1083,
+						"y": 1525,
+						"w": 73,
+						"h": 136
+					}
+				},
+				{
+					"filename": "gate0042.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 77,
+						"h": 137
+					},
+					"spriteSourceSize": {
+						"x": 6,
+						"y": 1,
+						"w": 71,
+						"h": 136
+					},
+					"frame": {
+						"x": 1156,
+						"y": 1525,
+						"w": 71,
+						"h": 136
+					}
+				},
+				{
+					"filename": "gate0043.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 77,
+						"h": 137
+					},
+					"spriteSourceSize": {
+						"x": 7,
+						"y": 1,
+						"w": 70,
+						"h": 136
+					},
+					"frame": {
+						"x": 1209,
+						"y": 1389,
+						"w": 70,
+						"h": 136
+					}
+				},
+				{
+					"filename": "gate0044.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 77,
+						"h": 137
+					},
+					"spriteSourceSize": {
+						"x": 7,
+						"y": 1,
+						"w": 70,
+						"h": 136
+					},
+					"frame": {
+						"x": 1227,
+						"y": 1525,
+						"w": 70,
+						"h": 136
+					}
+				},
+				{
+					"filename": "gate0073.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 77,
+						"h": 137
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 1,
+						"w": 73,
+						"h": 136
+					},
+					"frame": {
+						"x": 1279,
+						"y": 1299,
+						"w": 73,
+						"h": 136
+					}
+				},
+				{
+					"filename": "gate0074.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 77,
+						"h": 137
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 1,
+						"w": 73,
+						"h": 136
+					},
+					"frame": {
+						"x": 1352,
+						"y": 1299,
+						"w": 73,
+						"h": 136
+					}
+				},
+				{
+					"filename": "gate0061.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 77,
+						"h": 137
+					},
+					"spriteSourceSize": {
+						"x": 5,
+						"y": 1,
+						"w": 72,
+						"h": 136
+					},
+					"frame": {
+						"x": 1425,
+						"y": 1299,
+						"w": 72,
+						"h": 136
+					}
+				},
+				{
+					"filename": "gate0062.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 77,
+						"h": 137
+					},
+					"spriteSourceSize": {
+						"x": 5,
+						"y": 1,
+						"w": 72,
+						"h": 136
+					},
+					"frame": {
+						"x": 1497,
+						"y": 1299,
+						"w": 72,
+						"h": 136
+					}
+				},
+				{
+					"filename": "gate0045.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 77,
+						"h": 137
+					},
+					"spriteSourceSize": {
+						"x": 8,
+						"y": 1,
+						"w": 69,
+						"h": 136
+					},
+					"frame": {
+						"x": 1569,
+						"y": 1299,
+						"w": 69,
+						"h": 136
+					}
+				},
+				{
+					"filename": "gate0075.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 77,
+						"h": 137
+					},
+					"spriteSourceSize": {
+						"x": 5,
+						"y": 1,
+						"w": 72,
+						"h": 136
+					},
+					"frame": {
+						"x": 1638,
+						"y": 1298,
+						"w": 72,
+						"h": 136
+					}
+				},
+				{
+					"filename": "gate0057.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 77,
+						"h": 137
+					},
+					"spriteSourceSize": {
+						"x": 7,
+						"y": 1,
+						"w": 70,
+						"h": 136
+					},
+					"frame": {
+						"x": 1710,
+						"y": 1298,
+						"w": 70,
+						"h": 136
+					}
+				},
+				{
+					"filename": "gate0076.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 77,
+						"h": 137
+					},
+					"spriteSourceSize": {
+						"x": 5,
+						"y": 1,
+						"w": 72,
+						"h": 136
+					},
+					"frame": {
+						"x": 1780,
+						"y": 1294,
+						"w": 72,
+						"h": 136
+					}
+				},
+				{
+					"filename": "gate0059.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 77,
+						"h": 137
+					},
+					"spriteSourceSize": {
+						"x": 6,
+						"y": 1,
+						"w": 71,
+						"h": 136
+					},
+					"frame": {
+						"x": 1852,
+						"y": 1330,
+						"w": 71,
+						"h": 136
+					}
+				},
+				{
+					"filename": "gate0128.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 77,
+						"h": 137
+					},
+					"spriteSourceSize": {
+						"x": 6,
+						"y": 82,
+						"w": 71,
+						"h": 48
+					},
+					"frame": {
+						"x": 1279,
+						"y": 1435,
+						"w": 71,
+						"h": 48
+					}
+				},
+				{
+					"filename": "gate0058.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 77,
+						"h": 137
+					},
+					"spriteSourceSize": {
+						"x": 7,
+						"y": 1,
+						"w": 70,
+						"h": 136
+					},
+					"frame": {
+						"x": 1297,
+						"y": 1483,
+						"w": 70,
+						"h": 136
+					}
+				},
+				{
+					"filename": "gate0060.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 77,
+						"h": 137
+					},
+					"spriteSourceSize": {
+						"x": 6,
+						"y": 1,
+						"w": 71,
+						"h": 136
+					},
+					"frame": {
+						"x": 1367,
+						"y": 1435,
+						"w": 71,
+						"h": 136
+					}
+				},
+				{
+					"filename": "gate0077.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 77,
+						"h": 137
+					},
+					"spriteSourceSize": {
+						"x": 6,
+						"y": 1,
+						"w": 71,
+						"h": 136
+					},
+					"frame": {
+						"x": 1438,
+						"y": 1435,
+						"w": 71,
+						"h": 136
+					}
+				},
+				{
+					"filename": "gate0099.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 77,
+						"h": 137
+					},
+					"spriteSourceSize": {
+						"x": 14,
+						"y": 10,
+						"w": 63,
+						"h": 127
+					},
+					"frame": {
+						"x": 1509,
+						"y": 1435,
+						"w": 63,
+						"h": 127
+					}
+				},
+				{
+					"filename": "gate0100.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 77,
+						"h": 137
+					},
+					"spriteSourceSize": {
+						"x": 14,
+						"y": 11,
+						"w": 63,
+						"h": 126
+					},
+					"frame": {
+						"x": 1572,
+						"y": 1435,
+						"w": 63,
+						"h": 126
+					}
+				},
+				{
+					"filename": "gate0101.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 77,
+						"h": 137
+					},
+					"spriteSourceSize": {
+						"x": 14,
+						"y": 11,
+						"w": 63,
+						"h": 126
+					},
+					"frame": {
+						"x": 1635,
+						"y": 1435,
+						"w": 63,
+						"h": 126
+					}
+				},
+				{
+					"filename": "gate0104.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 77,
+						"h": 137
+					},
+					"spriteSourceSize": {
+						"x": 15,
+						"y": 15,
+						"w": 62,
+						"h": 122
+					},
+					"frame": {
+						"x": 1698,
+						"y": 1434,
+						"w": 62,
+						"h": 122
+					}
+				},
+				{
+					"filename": "gate0105.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 77,
+						"h": 137
+					},
+					"spriteSourceSize": {
+						"x": 15,
+						"y": 16,
+						"w": 62,
+						"h": 121
+					},
+					"frame": {
+						"x": 1760,
+						"y": 1434,
+						"w": 62,
+						"h": 121
+					}
+				},
+				{
+					"filename": "gate0116.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 77,
+						"h": 137
+					},
+					"spriteSourceSize": {
+						"x": 12,
+						"y": 32,
+						"w": 65,
+						"h": 105
+					},
+					"frame": {
+						"x": 1822,
+						"y": 1466,
+						"w": 65,
+						"h": 105
+					}
+				},
+				{
+					"filename": "gate0106.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 77,
+						"h": 137
+					},
+					"spriteSourceSize": {
+						"x": 15,
+						"y": 17,
+						"w": 62,
+						"h": 120
+					},
+					"frame": {
+						"x": 1887,
+						"y": 1466,
+						"w": 62,
+						"h": 120
+					}
+				},
+				{
+					"filename": "gate0127.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 77,
+						"h": 137
+					},
+					"spriteSourceSize": {
+						"x": 6,
+						"y": 83,
+						"w": 71,
+						"h": 47
+					},
+					"frame": {
+						"x": 1367,
+						"y": 1571,
+						"w": 71,
+						"h": 47
+					}
+				},
+				{
+					"filename": "gate0129.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 77,
+						"h": 137
+					},
+					"spriteSourceSize": {
+						"x": 6,
+						"y": 84,
+						"w": 71,
+						"h": 46
+					},
+					"frame": {
+						"x": 1438,
+						"y": 1571,
+						"w": 71,
+						"h": 46
+					}
+				},
+				{
+					"filename": "gate0115.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 77,
+						"h": 137
+					},
+					"spriteSourceSize": {
+						"x": 13,
+						"y": 31,
+						"w": 64,
+						"h": 106
+					},
+					"frame": {
+						"x": 1509,
+						"y": 1562,
+						"w": 64,
+						"h": 106
+					}
+				},
+				{
+					"filename": "gate0114.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 77,
+						"h": 137
+					},
+					"spriteSourceSize": {
+						"x": 13,
+						"y": 29,
+						"w": 64,
+						"h": 108
+					},
+					"frame": {
+						"x": 1573,
+						"y": 1561,
+						"w": 64,
+						"h": 108
+					}
+				},
+				{
+					"filename": "gate0113.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 77,
+						"h": 137
+					},
+					"spriteSourceSize": {
+						"x": 13,
+						"y": 28,
+						"w": 64,
+						"h": 109
+					},
+					"frame": {
+						"x": 1637,
+						"y": 1561,
+						"w": 64,
+						"h": 109
+					}
+				},
+				{
+					"filename": "gate0112.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 77,
+						"h": 137
+					},
+					"spriteSourceSize": {
+						"x": 14,
+						"y": 26,
+						"w": 63,
+						"h": 111
+					},
+					"frame": {
+						"x": 1701,
+						"y": 1556,
+						"w": 63,
+						"h": 111
+					}
+				},
+				{
+					"filename": "gate0130.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 77,
+						"h": 137
+					},
+					"spriteSourceSize": {
+						"x": 6,
+						"y": 85,
+						"w": 71,
+						"h": 46
+					},
+					"frame": {
+						"x": 1438,
+						"y": 1617,
+						"w": 71,
+						"h": 46
+					}
+				},
+				{
+					"filename": "gate0124.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 77,
+						"h": 137
+					},
+					"spriteSourceSize": {
+						"x": 6,
+						"y": 86,
+						"w": 71,
+						"h": 45
+					},
+					"frame": {
+						"x": 1367,
+						"y": 1618,
+						"w": 71,
+						"h": 45
+					}
+				},
+				{
+					"filename": "gate0125.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 77,
+						"h": 137
+					},
+					"spriteSourceSize": {
+						"x": 6,
+						"y": 86,
+						"w": 71,
+						"h": 45
+					},
+					"frame": {
+						"x": 854,
+						"y": 1670,
+						"w": 71,
+						"h": 45
+					}
+				},
+				{
+					"filename": "gate0126.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 77,
+						"h": 137
+					},
+					"spriteSourceSize": {
+						"x": 6,
+						"y": 85,
+						"w": 71,
+						"h": 45
+					},
+					"frame": {
+						"x": 925,
+						"y": 1670,
+						"w": 71,
+						"h": 45
+					}
+				},
+				{
+					"filename": "gate0134.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 77,
+						"h": 137
+					},
+					"spriteSourceSize": {
+						"x": 6,
+						"y": 85,
+						"w": 71,
+						"h": 45
+					},
+					"frame": {
+						"x": 996,
+						"y": 1670,
+						"w": 71,
+						"h": 45
+					}
+				},
+				{
+					"filename": "gate0122.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 77,
+						"h": 137
+					},
+					"spriteSourceSize": {
+						"x": 6,
+						"y": 88,
+						"w": 71,
+						"h": 44
+					},
+					"frame": {
+						"x": 1067,
+						"y": 1661,
+						"w": 71,
+						"h": 44
+					}
+				},
+				{
+					"filename": "gate0131.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 77,
+						"h": 137
+					},
+					"spriteSourceSize": {
+						"x": 6,
+						"y": 87,
+						"w": 71,
+						"h": 44
+					},
+					"frame": {
+						"x": 1138,
+						"y": 1661,
+						"w": 71,
+						"h": 44
+					}
+				},
+				{
+					"filename": "gate0132.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 77,
+						"h": 137
+					},
+					"spriteSourceSize": {
+						"x": 6,
+						"y": 88,
+						"w": 71,
+						"h": 44
+					},
+					"frame": {
+						"x": 1209,
+						"y": 1661,
+						"w": 71,
+						"h": 44
+					}
+				},
+				{
+					"filename": "gate0121.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 77,
+						"h": 137
+					},
+					"spriteSourceSize": {
+						"x": 6,
+						"y": 89,
+						"w": 71,
+						"h": 43
+					},
+					"frame": {
+						"x": 1701,
+						"y": 1667,
+						"w": 71,
+						"h": 43
+					}
+				},
+				{
+					"filename": "gate0135.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 77,
+						"h": 137
+					},
+					"spriteSourceSize": {
+						"x": 6,
+						"y": 87,
+						"w": 71,
+						"h": 44
+					},
+					"frame": {
+						"x": 1280,
+						"y": 1661,
+						"w": 71,
+						"h": 44
+					}
+				},
+				{
+					"filename": "gate0123.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 77,
+						"h": 137
+					},
+					"spriteSourceSize": {
+						"x": 6,
+						"y": 88,
+						"w": 71,
+						"h": 43
+					},
+					"frame": {
+						"x": 1351,
+						"y": 1663,
+						"w": 71,
+						"h": 43
+					}
+				},
+				{
+					"filename": "gate0133.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 77,
+						"h": 137
+					},
+					"spriteSourceSize": {
+						"x": 6,
+						"y": 89,
+						"w": 71,
+						"h": 43
+					},
+					"frame": {
+						"x": 1422,
+						"y": 1663,
+						"w": 71,
+						"h": 43
+					}
+				},
+				{
+					"filename": "gate0136.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 77,
+						"h": 137
+					},
+					"spriteSourceSize": {
+						"x": 6,
+						"y": 89,
+						"w": 71,
+						"h": 43
+					},
+					"frame": {
+						"x": 1493,
+						"y": 1668,
+						"w": 71,
+						"h": 43
+					}
+				},
+				{
+					"filename": "gate0137.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 77,
+						"h": 137
+					},
+					"spriteSourceSize": {
+						"x": 6,
+						"y": 89,
+						"w": 71,
+						"h": 43
+					},
+					"frame": {
+						"x": 1564,
+						"y": 1669,
+						"w": 71,
+						"h": 43
+					}
+				},
+				{
+					"filename": "gate0138.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 77,
+						"h": 137
+					},
+					"spriteSourceSize": {
+						"x": 6,
+						"y": 89,
+						"w": 71,
+						"h": 43
+					},
+					"frame": {
+						"x": 1764,
+						"y": 1571,
+						"w": 71,
+						"h": 43
+					}
+				},
+				{
+					"filename": "gate0139.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 77,
+						"h": 137
+					},
+					"spriteSourceSize": {
+						"x": 6,
+						"y": 89,
+						"w": 71,
+						"h": 43
+					},
+					"frame": {
+						"x": 1764,
+						"y": 1614,
+						"w": 71,
+						"h": 43
+					}
+				},
+				{
+					"filename": "gate0140.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 77,
+						"h": 137
+					},
+					"spriteSourceSize": {
+						"x": 6,
+						"y": 89,
+						"w": 71,
+						"h": 43
+					},
+					"frame": {
+						"x": 1772,
+						"y": 1657,
+						"w": 71,
+						"h": 43
+					}
+				}
+			]
+		},
+		{
+			"image": "gate-1.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 2018,
+				"h": 1488
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "Symbol 340137.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 160,
+						"h": 286
+					},
+					"spriteSourceSize": {
+						"x": 14,
+						"y": 188,
+						"w": 146,
+						"h": 86
+					},
+					"frame": {
+						"x": 0,
+						"y": 0,
+						"w": 146,
+						"h": 86
+					}
+				},
+				{
+					"filename": "Symbol 340138.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 160,
+						"h": 286
+					},
+					"spriteSourceSize": {
+						"x": 14,
+						"y": 188,
+						"w": 146,
+						"h": 86
+					},
+					"frame": {
+						"x": 146,
+						"y": 0,
+						"w": 146,
+						"h": 86
+					}
+				},
+				{
+					"filename": "Symbol 340139.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 160,
+						"h": 286
+					},
+					"spriteSourceSize": {
+						"x": 14,
+						"y": 188,
+						"w": 146,
+						"h": 86
+					},
+					"frame": {
+						"x": 292,
+						"y": 0,
+						"w": 146,
+						"h": 86
+					}
+				},
+				{
+					"filename": "Symbol 340140.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 160,
+						"h": 286
+					},
+					"spriteSourceSize": {
+						"x": 14,
+						"y": 188,
+						"w": 146,
+						"h": 86
+					},
+					"frame": {
+						"x": 438,
+						"y": 0,
+						"w": 146,
+						"h": 86
+					}
+				},
+				{
+					"filename": "Symbol 340122.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 160,
+						"h": 286
+					},
+					"spriteSourceSize": {
+						"x": 13,
+						"y": 186,
+						"w": 147,
+						"h": 87
+					},
+					"frame": {
+						"x": 584,
+						"y": 0,
+						"w": 147,
+						"h": 87
+					}
+				},
+				{
+					"filename": "Symbol 340132.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 160,
+						"h": 286
+					},
+					"spriteSourceSize": {
+						"x": 13,
+						"y": 185,
+						"w": 147,
+						"h": 88
+					},
+					"frame": {
+						"x": 731,
+						"y": 0,
+						"w": 147,
+						"h": 88
+					}
+				},
+				{
+					"filename": "Symbol 340123.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 160,
+						"h": 286
+					},
+					"spriteSourceSize": {
+						"x": 13,
+						"y": 184,
+						"w": 147,
+						"h": 89
+					},
+					"frame": {
+						"x": 878,
+						"y": 0,
+						"w": 147,
+						"h": 89
+					}
+				},
+				{
+					"filename": "Symbol 340124.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 160,
+						"h": 286
+					},
+					"spriteSourceSize": {
+						"x": 13,
+						"y": 182,
+						"w": 147,
+						"h": 90
+					},
+					"frame": {
+						"x": 1025,
+						"y": 0,
+						"w": 147,
+						"h": 90
+					}
+				},
+				{
+					"filename": "Symbol 340131.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 160,
+						"h": 286
+					},
+					"spriteSourceSize": {
+						"x": 13,
+						"y": 182,
+						"w": 147,
+						"h": 90
+					},
+					"frame": {
+						"x": 1172,
+						"y": 0,
+						"w": 147,
+						"h": 90
+					}
+				},
+				{
+					"filename": "Symbol 340135.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 160,
+						"h": 286
+					},
+					"spriteSourceSize": {
+						"x": 13,
+						"y": 183,
+						"w": 147,
+						"h": 90
+					},
+					"frame": {
+						"x": 1319,
+						"y": 0,
+						"w": 147,
+						"h": 90
+					}
+				},
+				{
+					"filename": "Symbol 340125.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 160,
+						"h": 286
+					},
+					"spriteSourceSize": {
+						"x": 13,
+						"y": 180,
+						"w": 147,
+						"h": 91
+					},
+					"frame": {
+						"x": 1466,
+						"y": 0,
+						"w": 147,
+						"h": 91
+					}
+				},
+				{
+					"filename": "Symbol 340130.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 160,
+						"h": 286
+					},
+					"spriteSourceSize": {
+						"x": 13,
+						"y": 180,
+						"w": 147,
+						"h": 91
+					},
+					"frame": {
+						"x": 1613,
+						"y": 0,
+						"w": 147,
+						"h": 91
+					}
+				},
+				{
+					"filename": "Symbol 340126.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 160,
+						"h": 286
+					},
+					"spriteSourceSize": {
+						"x": 13,
+						"y": 178,
+						"w": 147,
+						"h": 92
+					},
+					"frame": {
+						"x": 1760,
+						"y": 0,
+						"w": 147,
+						"h": 92
+					}
+				},
+				{
+					"filename": "gate0118.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 77,
+						"h": 137
+					},
+					"spriteSourceSize": {
+						"x": 12,
+						"y": 36,
+						"w": 65,
+						"h": 101
+					},
+					"frame": {
+						"x": 1907,
+						"y": 0,
+						"w": 65,
+						"h": 101
+					}
+				},
+				{
+					"filename": "gate0117.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 77,
+						"h": 137
+					},
+					"spriteSourceSize": {
+						"x": 12,
+						"y": 34,
+						"w": 65,
+						"h": 103
+					},
+					"frame": {
+						"x": 0,
+						"y": 86,
+						"w": 65,
+						"h": 103
+					}
+				},
+				{
+					"filename": "gate0097.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 77,
+						"h": 137
+					},
+					"spriteSourceSize": {
+						"x": 13,
+						"y": 9,
+						"w": 64,
+						"h": 128
+					},
+					"frame": {
+						"x": 65,
+						"y": 86,
+						"w": 64,
+						"h": 128
+					}
+				},
+				{
+					"filename": "gate0094.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 77,
+						"h": 137
+					},
+					"spriteSourceSize": {
+						"x": 13,
+						"y": 8,
+						"w": 64,
+						"h": 129
+					},
+					"frame": {
+						"x": 129,
+						"y": 86,
+						"w": 64,
+						"h": 129
+					}
+				},
+				{
+					"filename": "gate0095.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 77,
+						"h": 137
+					},
+					"spriteSourceSize": {
+						"x": 13,
+						"y": 8,
+						"w": 64,
+						"h": 129
+					},
+					"frame": {
+						"x": 193,
+						"y": 86,
+						"w": 64,
+						"h": 129
+					}
+				},
+				{
+					"filename": "gate0092.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 77,
+						"h": 137
+					},
+					"spriteSourceSize": {
+						"x": 12,
+						"y": 7,
+						"w": 65,
+						"h": 130
+					},
+					"frame": {
+						"x": 257,
+						"y": 86,
+						"w": 65,
+						"h": 130
+					}
+				},
+				{
+					"filename": "gate0093.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 77,
+						"h": 137
+					},
+					"spriteSourceSize": {
+						"x": 12,
+						"y": 7,
+						"w": 65,
+						"h": 130
+					},
+					"frame": {
+						"x": 322,
+						"y": 86,
+						"w": 65,
+						"h": 130
+					}
+				},
+				{
+					"filename": "gate0090.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 77,
+						"h": 137
+					},
+					"spriteSourceSize": {
+						"x": 12,
+						"y": 6,
+						"w": 65,
+						"h": 131
+					},
+					"frame": {
+						"x": 387,
+						"y": 86,
+						"w": 65,
+						"h": 131
+					}
+				},
+				{
+					"filename": "gate0091.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 77,
+						"h": 137
+					},
+					"spriteSourceSize": {
+						"x": 12,
+						"y": 6,
+						"w": 65,
+						"h": 131
+					},
+					"frame": {
+						"x": 452,
+						"y": 86,
+						"w": 65,
+						"h": 131
+					}
+				},
+				{
+					"filename": "gate0088.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 77,
+						"h": 137
+					},
+					"spriteSourceSize": {
+						"x": 11,
+						"y": 5,
+						"w": 66,
+						"h": 132
+					},
+					"frame": {
+						"x": 517,
+						"y": 86,
+						"w": 66,
+						"h": 132
+					}
+				},
+				{
+					"filename": "gate0089.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 77,
+						"h": 137
+					},
+					"spriteSourceSize": {
+						"x": 11,
+						"y": 5,
+						"w": 66,
+						"h": 132
+					},
+					"frame": {
+						"x": 583,
+						"y": 87,
+						"w": 66,
+						"h": 132
+					}
+				},
+				{
+					"filename": "gate0086.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 77,
+						"h": 137
+					},
+					"spriteSourceSize": {
+						"x": 10,
+						"y": 4,
+						"w": 67,
+						"h": 133
+					},
+					"frame": {
+						"x": 649,
+						"y": 87,
+						"w": 67,
+						"h": 133
+					}
+				},
+				{
+					"filename": "gate0087.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 77,
+						"h": 137
+					},
+					"spriteSourceSize": {
+						"x": 10,
+						"y": 4,
+						"w": 67,
+						"h": 133
+					},
+					"frame": {
+						"x": 716,
+						"y": 88,
+						"w": 67,
+						"h": 133
+					}
+				},
+				{
+					"filename": "gate0082.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 77,
+						"h": 137
+					},
+					"spriteSourceSize": {
+						"x": 8,
+						"y": 3,
+						"w": 69,
+						"h": 134
+					},
+					"frame": {
+						"x": 783,
+						"y": 88,
+						"w": 69,
+						"h": 134
+					}
+				},
+				{
+					"filename": "gate0083.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 77,
+						"h": 137
+					},
+					"spriteSourceSize": {
+						"x": 9,
+						"y": 3,
+						"w": 68,
+						"h": 134
+					},
+					"frame": {
+						"x": 852,
+						"y": 89,
+						"w": 68,
+						"h": 134
+					}
+				},
+				{
+					"filename": "gate0084.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 77,
+						"h": 137
+					},
+					"spriteSourceSize": {
+						"x": 9,
+						"y": 3,
+						"w": 68,
+						"h": 134
+					},
+					"frame": {
+						"x": 920,
+						"y": 89,
+						"w": 68,
+						"h": 134
+					}
+				},
+				{
+					"filename": "gate0085.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 77,
+						"h": 137
+					},
+					"spriteSourceSize": {
+						"x": 9,
+						"y": 3,
+						"w": 68,
+						"h": 134
+					},
+					"frame": {
+						"x": 988,
+						"y": 90,
+						"w": 68,
+						"h": 134
+					}
+				},
+				{
+					"filename": "gate0046.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 77,
+						"h": 137
+					},
+					"spriteSourceSize": {
+						"x": 8,
+						"y": 2,
+						"w": 69,
+						"h": 135
+					},
+					"frame": {
+						"x": 1056,
+						"y": 90,
+						"w": 69,
+						"h": 135
+					}
+				},
+				{
+					"filename": "gate0047.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 77,
+						"h": 137
+					},
+					"spriteSourceSize": {
+						"x": 8,
+						"y": 2,
+						"w": 69,
+						"h": 135
+					},
+					"frame": {
+						"x": 1125,
+						"y": 90,
+						"w": 69,
+						"h": 135
+					}
+				},
+				{
+					"filename": "gate0048.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 77,
+						"h": 137
+					},
+					"spriteSourceSize": {
+						"x": 9,
+						"y": 2,
+						"w": 68,
+						"h": 135
+					},
+					"frame": {
+						"x": 1194,
+						"y": 90,
+						"w": 68,
+						"h": 135
+					}
+				},
+				{
+					"filename": "gate0049.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 77,
+						"h": 137
+					},
+					"spriteSourceSize": {
+						"x": 9,
+						"y": 2,
+						"w": 68,
+						"h": 135
+					},
+					"frame": {
+						"x": 1262,
+						"y": 90,
+						"w": 68,
+						"h": 135
+					}
+				},
+				{
+					"filename": "gate0050.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 77,
+						"h": 137
+					},
+					"spriteSourceSize": {
+						"x": 9,
+						"y": 2,
+						"w": 68,
+						"h": 135
+					},
+					"frame": {
+						"x": 1330,
+						"y": 90,
+						"w": 68,
+						"h": 135
+					}
+				},
+				{
+					"filename": "gate0051.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 77,
+						"h": 137
+					},
+					"spriteSourceSize": {
+						"x": 9,
+						"y": 2,
+						"w": 68,
+						"h": 135
+					},
+					"frame": {
+						"x": 1398,
+						"y": 90,
+						"w": 68,
+						"h": 135
+					}
+				},
+				{
+					"filename": "gate0052.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 77,
+						"h": 137
+					},
+					"spriteSourceSize": {
+						"x": 9,
+						"y": 2,
+						"w": 68,
+						"h": 135
+					},
+					"frame": {
+						"x": 1466,
+						"y": 91,
+						"w": 68,
+						"h": 135
+					}
+				},
+				{
+					"filename": "gate0053.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 77,
+						"h": 137
+					},
+					"spriteSourceSize": {
+						"x": 9,
+						"y": 2,
+						"w": 68,
+						"h": 135
+					},
+					"frame": {
+						"x": 1534,
+						"y": 91,
+						"w": 68,
+						"h": 135
+					}
+				},
+				{
+					"filename": "gate0054.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 77,
+						"h": 137
+					},
+					"spriteSourceSize": {
+						"x": 8,
+						"y": 2,
+						"w": 69,
+						"h": 135
+					},
+					"frame": {
+						"x": 1602,
+						"y": 91,
+						"w": 69,
+						"h": 135
+					}
+				},
+				{
+					"filename": "gate0055.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 77,
+						"h": 137
+					},
+					"spriteSourceSize": {
+						"x": 8,
+						"y": 2,
+						"w": 69,
+						"h": 135
+					},
+					"frame": {
+						"x": 1671,
+						"y": 91,
+						"w": 69,
+						"h": 135
+					}
+				},
+				{
+					"filename": "gate0056.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 77,
+						"h": 137
+					},
+					"spriteSourceSize": {
+						"x": 8,
+						"y": 2,
+						"w": 69,
+						"h": 135
+					},
+					"frame": {
+						"x": 1740,
+						"y": 92,
+						"w": 69,
+						"h": 135
+					}
+				},
+				{
+					"filename": "gate0078.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 77,
+						"h": 137
+					},
+					"spriteSourceSize": {
+						"x": 7,
+						"y": 2,
+						"w": 70,
+						"h": 135
+					},
+					"frame": {
+						"x": 1809,
+						"y": 92,
+						"w": 70,
+						"h": 135
+					}
+				},
+				{
+					"filename": "gate0079.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 77,
+						"h": 137
+					},
+					"spriteSourceSize": {
+						"x": 7,
+						"y": 2,
+						"w": 70,
+						"h": 135
+					},
+					"frame": {
+						"x": 1879,
+						"y": 101,
+						"w": 70,
+						"h": 135
+					}
+				},
+				{
+					"filename": "gate0081.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 77,
+						"h": 137
+					},
+					"spriteSourceSize": {
+						"x": 8,
+						"y": 2,
+						"w": 69,
+						"h": 135
+					},
+					"frame": {
+						"x": 1949,
+						"y": 101,
+						"w": 69,
+						"h": 135
+					}
+				},
+				{
+					"filename": "gate0080.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 77,
+						"h": 137
+					},
+					"spriteSourceSize": {
+						"x": 7,
+						"y": 2,
+						"w": 70,
+						"h": 135
+					},
+					"frame": {
+						"x": 0,
+						"y": 214,
+						"w": 70,
+						"h": 135
+					}
+				},
+				{
+					"filename": "gate0010.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 77,
+						"h": 137
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 77,
+						"h": 137
+					},
+					"frame": {
+						"x": 70,
+						"y": 215,
+						"w": 77,
+						"h": 137
+					}
+				},
+				{
+					"filename": "gate0011.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 77,
+						"h": 137
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 77,
+						"h": 137
+					},
+					"frame": {
+						"x": 147,
+						"y": 215,
+						"w": 77,
+						"h": 137
+					}
+				},
+				{
+					"filename": "gate0012.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 77,
+						"h": 137
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 77,
+						"h": 137
+					},
+					"frame": {
+						"x": 224,
+						"y": 216,
+						"w": 77,
+						"h": 137
+					}
+				},
+				{
+					"filename": "gate0013.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 77,
+						"h": 137
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 77,
+						"h": 137
+					},
+					"frame": {
+						"x": 301,
+						"y": 216,
+						"w": 77,
+						"h": 137
+					}
+				},
+				{
+					"filename": "gate0014.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 77,
+						"h": 137
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 77,
+						"h": 137
+					},
+					"frame": {
+						"x": 378,
+						"y": 217,
+						"w": 77,
+						"h": 137
+					}
+				},
+				{
+					"filename": "gate0015.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 77,
+						"h": 137
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 77,
+						"h": 137
+					},
+					"frame": {
+						"x": 455,
+						"y": 218,
+						"w": 77,
+						"h": 137
+					}
+				},
+				{
+					"filename": "gate0016.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 77,
+						"h": 137
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 77,
+						"h": 137
+					},
+					"frame": {
+						"x": 532,
+						"y": 219,
+						"w": 77,
+						"h": 137
+					}
+				},
+				{
+					"filename": "gate0017.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 77,
+						"h": 137
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 77,
+						"h": 137
+					},
+					"frame": {
+						"x": 609,
+						"y": 220,
+						"w": 77,
+						"h": 137
+					}
+				},
+				{
+					"filename": "gate0018.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 77,
+						"h": 137
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 77,
+						"h": 137
+					},
+					"frame": {
+						"x": 686,
+						"y": 221,
+						"w": 77,
+						"h": 137
+					}
+				},
+				{
+					"filename": "gate0019.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 77,
+						"h": 137
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 77,
+						"h": 137
+					},
+					"frame": {
+						"x": 763,
+						"y": 222,
+						"w": 77,
+						"h": 137
+					}
+				},
+				{
+					"filename": "gate0020.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 77,
+						"h": 137
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 77,
+						"h": 137
+					},
+					"frame": {
+						"x": 840,
+						"y": 223,
+						"w": 77,
+						"h": 137
+					}
+				},
+				{
+					"filename": "gate0021.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 77,
+						"h": 137
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 77,
+						"h": 137
+					},
+					"frame": {
+						"x": 917,
+						"y": 224,
+						"w": 77,
+						"h": 137
+					}
+				},
+				{
+					"filename": "gate0022.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 77,
+						"h": 137
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 77,
+						"h": 137
+					},
+					"frame": {
+						"x": 994,
+						"y": 225,
+						"w": 77,
+						"h": 137
+					}
+				},
+				{
+					"filename": "gate0023.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 77,
+						"h": 137
+					},
+					"spriteSourceSize": {
+						"x": 5,
+						"y": 0,
+						"w": 72,
+						"h": 137
+					},
+					"frame": {
+						"x": 1071,
+						"y": 225,
+						"w": 72,
+						"h": 137
+					}
+				},
+				{
+					"filename": "gate0024.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 77,
+						"h": 137
+					},
+					"spriteSourceSize": {
+						"x": 5,
+						"y": 0,
+						"w": 72,
+						"h": 137
+					},
+					"frame": {
+						"x": 1143,
+						"y": 225,
+						"w": 72,
+						"h": 137
+					}
+				},
+				{
+					"filename": "gate0025.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 77,
+						"h": 137
+					},
+					"spriteSourceSize": {
+						"x": 5,
+						"y": 0,
+						"w": 72,
+						"h": 137
+					},
+					"frame": {
+						"x": 1215,
+						"y": 225,
+						"w": 72,
+						"h": 137
+					}
+				},
+				{
+					"filename": "gate0026.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 77,
+						"h": 137
+					},
+					"spriteSourceSize": {
+						"x": 5,
+						"y": 0,
+						"w": 72,
+						"h": 137
+					},
+					"frame": {
+						"x": 1287,
+						"y": 225,
+						"w": 72,
+						"h": 137
+					}
+				},
+				{
+					"filename": "gate0027.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 77,
+						"h": 137
+					},
+					"spriteSourceSize": {
+						"x": 5,
+						"y": 0,
+						"w": 72,
+						"h": 137
+					},
+					"frame": {
+						"x": 1359,
+						"y": 225,
+						"w": 72,
+						"h": 137
+					}
+				},
+				{
+					"filename": "gate0028.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 77,
+						"h": 137
+					},
+					"spriteSourceSize": {
+						"x": 5,
+						"y": 0,
+						"w": 72,
+						"h": 137
+					},
+					"frame": {
+						"x": 1431,
+						"y": 226,
+						"w": 72,
+						"h": 137
+					}
+				},
+				{
+					"filename": "gate0029.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 77,
+						"h": 137
+					},
+					"spriteSourceSize": {
+						"x": 5,
+						"y": 0,
+						"w": 72,
+						"h": 137
+					},
+					"frame": {
+						"x": 1503,
+						"y": 226,
+						"w": 72,
+						"h": 137
+					}
+				},
+				{
+					"filename": "gate0030.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 77,
+						"h": 137
+					},
+					"spriteSourceSize": {
+						"x": 5,
+						"y": 0,
+						"w": 72,
+						"h": 137
+					},
+					"frame": {
+						"x": 1575,
+						"y": 226,
+						"w": 72,
+						"h": 137
+					}
+				},
+				{
+					"filename": "gate0031.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 77,
+						"h": 137
+					},
+					"spriteSourceSize": {
+						"x": 5,
+						"y": 0,
+						"w": 72,
+						"h": 137
+					},
+					"frame": {
+						"x": 1647,
+						"y": 226,
+						"w": 72,
+						"h": 137
+					}
+				},
+				{
+					"filename": "gate0032.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 77,
+						"h": 137
+					},
+					"spriteSourceSize": {
+						"x": 5,
+						"y": 0,
+						"w": 72,
+						"h": 137
+					},
+					"frame": {
+						"x": 1719,
+						"y": 227,
+						"w": 72,
+						"h": 137
+					}
+				},
+				{
+					"filename": "gate0033.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 77,
+						"h": 137
+					},
+					"spriteSourceSize": {
+						"x": 5,
+						"y": 0,
+						"w": 72,
+						"h": 137
+					},
+					"frame": {
+						"x": 1791,
+						"y": 227,
+						"w": 72,
+						"h": 137
+					}
+				},
+				{
+					"filename": "gate0034.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 77,
+						"h": 137
+					},
+					"spriteSourceSize": {
+						"x": 5,
+						"y": 0,
+						"w": 72,
+						"h": 137
+					},
+					"frame": {
+						"x": 1863,
+						"y": 236,
+						"w": 72,
+						"h": 137
+					}
+				},
+				{
+					"filename": "gate0035.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 77,
+						"h": 137
+					},
+					"spriteSourceSize": {
+						"x": 5,
+						"y": 0,
+						"w": 72,
+						"h": 137
+					},
+					"frame": {
+						"x": 1935,
+						"y": 236,
+						"w": 72,
+						"h": 137
+					}
+				},
+				{
+					"filename": "gate0036.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 77,
+						"h": 137
+					},
+					"spriteSourceSize": {
+						"x": 5,
+						"y": 0,
+						"w": 72,
+						"h": 137
+					},
+					"frame": {
+						"x": 0,
+						"y": 352,
+						"w": 72,
+						"h": 137
+					}
+				},
+				{
+					"filename": "Symbol 340110.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 160,
+						"h": 286
+					},
+					"spriteSourceSize": {
+						"x": 31,
+						"y": 50,
+						"w": 129,
+						"h": 236
+					},
+					"frame": {
+						"x": 72,
+						"y": 352,
+						"w": 129,
+						"h": 236
+					}
+				},
+				{
+					"filename": "Symbol 340109.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 160,
+						"h": 286
+					},
+					"spriteSourceSize": {
+						"x": 31,
+						"y": 47,
+						"w": 129,
+						"h": 239
+					},
+					"frame": {
+						"x": 201,
+						"y": 353,
+						"w": 129,
+						"h": 239
+					}
+				},
+				{
+					"filename": "Symbol 340108.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 160,
+						"h": 286
+					},
+					"spriteSourceSize": {
+						"x": 32,
+						"y": 44,
+						"w": 128,
+						"h": 242
+					},
+					"frame": {
+						"x": 330,
+						"y": 355,
+						"w": 128,
+						"h": 242
+					}
+				},
+				{
+					"filename": "Symbol 340107.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 160,
+						"h": 286
+					},
+					"spriteSourceSize": {
+						"x": 32,
+						"y": 40,
+						"w": 128,
+						"h": 246
+					},
+					"frame": {
+						"x": 458,
+						"y": 356,
+						"w": 128,
+						"h": 246
+					}
+				},
+				{
+					"filename": "Symbol 340106.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 160,
+						"h": 286
+					},
+					"spriteSourceSize": {
+						"x": 32,
+						"y": 38,
+						"w": 128,
+						"h": 248
+					},
+					"frame": {
+						"x": 586,
+						"y": 358,
+						"w": 128,
+						"h": 248
+					}
+				},
+				{
+					"filename": "Symbol 340105.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 160,
+						"h": 286
+					},
+					"spriteSourceSize": {
+						"x": 32,
+						"y": 35,
+						"w": 128,
+						"h": 251
+					},
+					"frame": {
+						"x": 714,
+						"y": 360,
+						"w": 128,
+						"h": 251
+					}
+				},
+				{
+					"filename": "Symbol 340104.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 160,
+						"h": 286
+					},
+					"spriteSourceSize": {
+						"x": 32,
+						"y": 32,
+						"w": 128,
+						"h": 254
+					},
+					"frame": {
+						"x": 842,
+						"y": 361,
+						"w": 128,
+						"h": 254
+					}
+				},
+				{
+					"filename": "Symbol 340103.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 160,
+						"h": 286
+					},
+					"spriteSourceSize": {
+						"x": 32,
+						"y": 29,
+						"w": 128,
+						"h": 257
+					},
+					"frame": {
+						"x": 970,
+						"y": 362,
+						"w": 128,
+						"h": 257
+					}
+				},
+				{
+					"filename": "Symbol 340102.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 160,
+						"h": 286
+					},
+					"spriteSourceSize": {
+						"x": 32,
+						"y": 26,
+						"w": 128,
+						"h": 260
+					},
+					"frame": {
+						"x": 1098,
+						"y": 362,
+						"w": 128,
+						"h": 260
+					}
+				},
+				{
+					"filename": "Symbol 340101.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 160,
+						"h": 286
+					},
+					"spriteSourceSize": {
+						"x": 31,
+						"y": 25,
+						"w": 129,
+						"h": 261
+					},
+					"frame": {
+						"x": 1226,
+						"y": 362,
+						"w": 129,
+						"h": 261
+					}
+				},
+				{
+					"filename": "Symbol 340100.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 160,
+						"h": 286
+					},
+					"spriteSourceSize": {
+						"x": 31,
+						"y": 24,
+						"w": 129,
+						"h": 262
+					},
+					"frame": {
+						"x": 1355,
+						"y": 363,
+						"w": 129,
+						"h": 262
+					}
+				},
+				{
+					"filename": "Symbol 340099.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 160,
+						"h": 286
+					},
+					"spriteSourceSize": {
+						"x": 30,
+						"y": 23,
+						"w": 130,
+						"h": 263
+					},
+					"frame": {
+						"x": 1484,
+						"y": 363,
+						"w": 130,
+						"h": 263
+					}
+				},
+				{
+					"filename": "Symbol 340098.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 160,
+						"h": 286
+					},
+					"spriteSourceSize": {
+						"x": 30,
+						"y": 22,
+						"w": 130,
+						"h": 264
+					},
+					"frame": {
+						"x": 1614,
+						"y": 364,
+						"w": 130,
+						"h": 264
+					}
+				},
+				{
+					"filename": "Symbol 340097.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 160,
+						"h": 286
+					},
+					"spriteSourceSize": {
+						"x": 30,
+						"y": 21,
+						"w": 130,
+						"h": 265
+					},
+					"frame": {
+						"x": 1744,
+						"y": 373,
+						"w": 130,
+						"h": 265
+					}
+				},
+				{
+					"filename": "Symbol 340096.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 160,
+						"h": 286
+					},
+					"spriteSourceSize": {
+						"x": 29,
+						"y": 20,
+						"w": 131,
+						"h": 266
+					},
+					"frame": {
+						"x": 1874,
+						"y": 373,
+						"w": 131,
+						"h": 266
+					}
+				},
+				{
+					"filename": "Symbol 340049.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 160,
+						"h": 286
+					},
+					"spriteSourceSize": {
+						"x": 19,
+						"y": 6,
+						"w": 141,
+						"h": 280
+					},
+					"frame": {
+						"x": 0,
+						"y": 588,
+						"w": 141,
+						"h": 280
+					}
+				},
+				{
+					"filename": "Symbol 340050.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 160,
+						"h": 286
+					},
+					"spriteSourceSize": {
+						"x": 19,
+						"y": 6,
+						"w": 141,
+						"h": 280
+					},
+					"frame": {
+						"x": 141,
+						"y": 592,
+						"w": 141,
+						"h": 280
+					}
+				},
+				{
+					"filename": "Symbol 340051.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 160,
+						"h": 286
+					},
+					"spriteSourceSize": {
+						"x": 19,
+						"y": 6,
+						"w": 141,
+						"h": 280
+					},
+					"frame": {
+						"x": 282,
+						"y": 597,
+						"w": 141,
+						"h": 280
+					}
+				},
+				{
+					"filename": "Symbol 340052.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 160,
+						"h": 286
+					},
+					"spriteSourceSize": {
+						"x": 19,
+						"y": 6,
+						"w": 141,
+						"h": 280
+					},
+					"frame": {
+						"x": 423,
+						"y": 602,
+						"w": 141,
+						"h": 280
+					}
+				},
+				{
+					"filename": "Symbol 340053.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 160,
+						"h": 286
+					},
+					"spriteSourceSize": {
+						"x": 19,
+						"y": 6,
+						"w": 141,
+						"h": 280
+					},
+					"frame": {
+						"x": 564,
+						"y": 606,
+						"w": 141,
+						"h": 280
+					}
+				},
+				{
+					"filename": "Symbol 340080.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 160,
+						"h": 286
+					},
+					"spriteSourceSize": {
+						"x": 17,
+						"y": 6,
+						"w": 143,
+						"h": 280
+					},
+					"frame": {
+						"x": 705,
+						"y": 615,
+						"w": 143,
+						"h": 280
+					}
+				},
+				{
+					"filename": "Symbol 340081.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 160,
+						"h": 286
+					},
+					"spriteSourceSize": {
+						"x": 18,
+						"y": 6,
+						"w": 142,
+						"h": 280
+					},
+					"frame": {
+						"x": 848,
+						"y": 619,
+						"w": 142,
+						"h": 280
+					}
+				},
+				{
+					"filename": "Symbol 340046.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 160,
+						"h": 286
+					},
+					"spriteSourceSize": {
+						"x": 18,
+						"y": 5,
+						"w": 142,
+						"h": 281
+					},
+					"frame": {
+						"x": 990,
+						"y": 622,
+						"w": 142,
+						"h": 281
+					}
+				},
+				{
+					"filename": "Symbol 340047.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 160,
+						"h": 286
+					},
+					"spriteSourceSize": {
+						"x": 19,
+						"y": 5,
+						"w": 141,
+						"h": 281
+					},
+					"frame": {
+						"x": 1132,
+						"y": 623,
+						"w": 141,
+						"h": 281
+					}
+				},
+				{
+					"filename": "Symbol 340054.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 160,
+						"h": 286
+					},
+					"spriteSourceSize": {
+						"x": 19,
+						"y": 5,
+						"w": 141,
+						"h": 281
+					},
+					"frame": {
+						"x": 1273,
+						"y": 625,
+						"w": 141,
+						"h": 281
+					}
+				},
+				{
+					"filename": "Symbol 340055.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 160,
+						"h": 286
+					},
+					"spriteSourceSize": {
+						"x": 18,
+						"y": 5,
+						"w": 142,
+						"h": 281
+					},
+					"frame": {
+						"x": 1414,
+						"y": 626,
+						"w": 142,
+						"h": 281
+					}
+				},
+				{
+					"filename": "Symbol 340056.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 160,
+						"h": 286
+					},
+					"spriteSourceSize": {
+						"x": 17,
+						"y": 5,
+						"w": 143,
+						"h": 281
+					},
+					"frame": {
+						"x": 1556,
+						"y": 628,
+						"w": 143,
+						"h": 281
+					}
+				},
+				{
+					"filename": "Symbol 340078.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 160,
+						"h": 286
+					},
+					"spriteSourceSize": {
+						"x": 15,
+						"y": 5,
+						"w": 145,
+						"h": 281
+					},
+					"frame": {
+						"x": 1699,
+						"y": 638,
+						"w": 145,
+						"h": 281
+					}
+				},
+				{
+					"filename": "Symbol 340079.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 160,
+						"h": 286
+					},
+					"spriteSourceSize": {
+						"x": 16,
+						"y": 5,
+						"w": 144,
+						"h": 281
+					},
+					"frame": {
+						"x": 1844,
+						"y": 639,
+						"w": 144,
+						"h": 281
+					}
+				},
+				{
+					"filename": "Symbol 340063.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 160,
+						"h": 286
+					},
+					"spriteSourceSize": {
+						"x": 11,
+						"y": 3,
+						"w": 149,
+						"h": 283
+					},
+					"frame": {
+						"x": 0,
+						"y": 872,
+						"w": 149,
+						"h": 283
+					}
+				},
+				{
+					"filename": "Symbol 340064.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 160,
+						"h": 286
+					},
+					"spriteSourceSize": {
+						"x": 10,
+						"y": 3,
+						"w": 150,
+						"h": 283
+					},
+					"frame": {
+						"x": 149,
+						"y": 877,
+						"w": 150,
+						"h": 283
+					}
+				},
+				{
+					"filename": "Symbol 340065.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 160,
+						"h": 286
+					},
+					"spriteSourceSize": {
+						"x": 9,
+						"y": 3,
+						"w": 151,
+						"h": 283
+					},
+					"frame": {
+						"x": 299,
+						"y": 882,
+						"w": 151,
+						"h": 283
+					}
+				},
+				{
+					"filename": "Symbol 340073.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 160,
+						"h": 286
+					},
+					"spriteSourceSize": {
+						"x": 9,
+						"y": 3,
+						"w": 151,
+						"h": 283
+					},
+					"frame": {
+						"x": 450,
+						"y": 886,
+						"w": 151,
+						"h": 283
+					}
+				},
+				{
+					"filename": "Symbol 340074.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 160,
+						"h": 286
+					},
+					"spriteSourceSize": {
+						"x": 10,
+						"y": 3,
+						"w": 150,
+						"h": 283
+					},
+					"frame": {
+						"x": 601,
+						"y": 895,
+						"w": 150,
+						"h": 283
+					}
+				},
+				{
+					"filename": "Symbol 340075.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 160,
+						"h": 286
+					},
+					"spriteSourceSize": {
+						"x": 11,
+						"y": 3,
+						"w": 149,
+						"h": 283
+					},
+					"frame": {
+						"x": 751,
+						"y": 899,
+						"w": 149,
+						"h": 283
+					}
+				},
+				{
+					"filename": "Symbol 340001.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 160,
+						"h": 286
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 2,
+						"w": 160,
+						"h": 284
+					},
+					"frame": {
+						"x": 900,
+						"y": 903,
+						"w": 160,
+						"h": 284
+					}
+				},
+				{
+					"filename": "Symbol 340002.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 160,
+						"h": 286
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 2,
+						"w": 160,
+						"h": 284
+					},
+					"frame": {
+						"x": 1060,
+						"y": 904,
+						"w": 160,
+						"h": 284
+					}
+				},
+				{
+					"filename": "Symbol 340003.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 160,
+						"h": 286
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 2,
+						"w": 160,
+						"h": 284
+					},
+					"frame": {
+						"x": 1220,
+						"y": 906,
+						"w": 160,
+						"h": 284
+					}
+				},
+				{
+					"filename": "Symbol 340004.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 160,
+						"h": 286
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 2,
+						"w": 160,
+						"h": 284
+					},
+					"frame": {
+						"x": 1380,
+						"y": 907,
+						"w": 160,
+						"h": 284
+					}
+				},
+				{
+					"filename": "Symbol 340023.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 160,
+						"h": 286
+					},
+					"spriteSourceSize": {
+						"x": 12,
+						"y": 2,
+						"w": 148,
+						"h": 284
+					},
+					"frame": {
+						"x": 1540,
+						"y": 909,
+						"w": 148,
+						"h": 284
+					}
+				},
+				{
+					"filename": "Symbol 340027.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 160,
+						"h": 286
+					},
+					"spriteSourceSize": {
+						"x": 12,
+						"y": 2,
+						"w": 148,
+						"h": 284
+					},
+					"frame": {
+						"x": 1688,
+						"y": 919,
+						"w": 148,
+						"h": 284
+					}
+				},
+				{
+					"filename": "Symbol 340005.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 160,
+						"h": 286
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 2,
+						"w": 160,
+						"h": 284
+					},
+					"frame": {
+						"x": 1836,
+						"y": 920,
+						"w": 160,
+						"h": 284
+					}
+				},
+				{
+					"filename": "Symbol 340028.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 160,
+						"h": 286
+					},
+					"spriteSourceSize": {
+						"x": 12,
+						"y": 2,
+						"w": 148,
+						"h": 284
+					},
+					"frame": {
+						"x": 0,
+						"y": 1155,
+						"w": 148,
+						"h": 284
+					}
+				},
+				{
+					"filename": "Symbol 340029.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 160,
+						"h": 286
+					},
+					"spriteSourceSize": {
+						"x": 12,
+						"y": 2,
+						"w": 148,
+						"h": 284
+					},
+					"frame": {
+						"x": 148,
+						"y": 1160,
+						"w": 148,
+						"h": 284
+					}
+				},
+				{
+					"filename": "Symbol 340030.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 160,
+						"h": 286
+					},
+					"spriteSourceSize": {
+						"x": 12,
+						"y": 2,
+						"w": 148,
+						"h": 284
+					},
+					"frame": {
+						"x": 296,
+						"y": 1165,
+						"w": 148,
+						"h": 284
+					}
+				},
+				{
+					"filename": "Symbol 340031.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 160,
+						"h": 286
+					},
+					"spriteSourceSize": {
+						"x": 12,
+						"y": 2,
+						"w": 148,
+						"h": 284
+					},
+					"frame": {
+						"x": 444,
+						"y": 1169,
+						"w": 148,
+						"h": 284
+					}
+				},
+				{
+					"filename": "Symbol 340032.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 160,
+						"h": 286
+					},
+					"spriteSourceSize": {
+						"x": 12,
+						"y": 2,
+						"w": 148,
+						"h": 284
+					},
+					"frame": {
+						"x": 592,
+						"y": 1178,
+						"w": 148,
+						"h": 284
+					}
+				},
+				{
+					"filename": "Symbol 340006.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 160,
+						"h": 286
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 2,
+						"w": 160,
+						"h": 284
+					},
+					"frame": {
+						"x": 740,
+						"y": 1182,
+						"w": 160,
+						"h": 284
+					}
+				},
+				{
+					"filename": "Symbol 340017.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 160,
+						"h": 286
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 2,
+						"w": 160,
+						"h": 284
+					},
+					"frame": {
+						"x": 900,
+						"y": 1187,
+						"w": 160,
+						"h": 284
+					}
+				},
+				{
+					"filename": "Symbol 340018.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 160,
+						"h": 286
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 2,
+						"w": 160,
+						"h": 284
+					},
+					"frame": {
+						"x": 1060,
+						"y": 1188,
+						"w": 160,
+						"h": 284
+					}
+				},
+				{
+					"filename": "Symbol 340019.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 160,
+						"h": 286
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 2,
+						"w": 160,
+						"h": 284
+					},
+					"frame": {
+						"x": 1220,
+						"y": 1190,
+						"w": 160,
+						"h": 284
+					}
+				},
+				{
+					"filename": "Symbol 340020.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 160,
+						"h": 286
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 2,
+						"w": 160,
+						"h": 284
+					},
+					"frame": {
+						"x": 1380,
+						"y": 1191,
+						"w": 160,
+						"h": 284
+					}
+				},
+				{
+					"filename": "Symbol 340033.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 160,
+						"h": 286
+					},
+					"spriteSourceSize": {
+						"x": 12,
+						"y": 2,
+						"w": 148,
+						"h": 284
+					},
+					"frame": {
+						"x": 1540,
+						"y": 1193,
+						"w": 148,
+						"h": 284
+					}
+				},
+				{
+					"filename": "Symbol 340021.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 160,
+						"h": 286
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 2,
+						"w": 160,
+						"h": 284
+					},
+					"frame": {
+						"x": 1688,
+						"y": 1204,
+						"w": 160,
+						"h": 284
+					}
+				},
+				{
+					"filename": "Symbol 340022.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 160,
+						"h": 286
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 2,
+						"w": 160,
+						"h": 284
+					},
+					"frame": {
+						"x": 1848,
+						"y": 1204,
+						"w": 160,
+						"h": 284
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "3.0",
+		"smartupdate": "$TexturePacker:SmartUpdate:3fcd81453a3bc72dce28d4a15683aff8:5c2a0822a73c9894ea94e1aac68a8c13:7c7a95e869f4dba028714fff84e5feab$"
+	}
+}

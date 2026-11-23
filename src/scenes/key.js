@@ -66,6 +66,7 @@ export default class key extends Phaser.GameObjects.Sprite {
 
 				if (this && !this.hasTriggered) {
 					this.hasTriggered = true;
+					this.scene.events.emit("open-door")
 					this.play({"key":"bling","frameRate":90,"repeat":0,"hideOnComplete":true})
 				}
 			}

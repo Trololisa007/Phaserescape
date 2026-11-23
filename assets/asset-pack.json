@@ -103,6 +103,12 @@
                 "key": "gameplayLoop"
             },
             {
+                "type": "multiatlas",
+                "url": "assets/atlas/gate.json",
+                "path": "assets/atlas",
+                "key": "gate"
+            },
+            {
                 "url": [
                     "assets/audio/hint.mp3"
                 ],
@@ -247,6 +253,16 @@
                 "url": "assets/atlas/RampExample.json",
                 "path": "assets/atlas",
                 "key": "RampExample"
+            },
+            {
+                "url": "assets/images/rampMid.png",
+                "type": "image",
+                "key": "rampMid"
+            },
+            {
+                "url": "assets/images/rampR.png",
+                "type": "image",
+                "key": "rampR"
             },
             {
                 "url": "assets/images/Symbol 2.png",
