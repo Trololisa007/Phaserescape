@@ -33,9 +33,11 @@
                             "type": "b2CircleShape",
                             "id": "72978868-b500-421a-b69b-f8a27663e881",
                             "label": "shape",
+                            "scope": "CLASS",
                             "friction": 1.5,
                             "restitution": 0.2,
                             "filterCategoryBits": 2,
+                            "filterGroupIndex": -1,
                             "density": 3,
                             "radius": 64.5
                         }

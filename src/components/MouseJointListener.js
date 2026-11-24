@@ -4,7 +4,7 @@
 /* START OF COMPILED CODE */
 
 /* START-USER-IMPORTS */
-import { b2Body_Disable, b2Body_Enable, b2BodyId, b2MakeBox, b2Shape_GetFilter, b2ShapeId } from "../box2d/PhaserBox2D.js";
+import { b2Body_Disable, b2Body_Enable, b2Body_GetPosition, b2Body_GetShapeCount, b2Body_GetShapes, b2Body_GetTransform, b2Body_SetAwake, b2Body_SetTransform, b2BodyId, b2MakeBox, b2Shape_GetFilter, b2Shape_SetFilter, b2ShapeId, b2World_SetCustomFilterCallback, WorldStep, b2Vec2 } from "../box2d/PhaserBox2D.js";
 
 /* END-USER-IMPORTS */
 
@@ -13,37 +13,79 @@ export default class MouseJointListener {
 	constructor(gameObject) {
 		this.gameObject = gameObject;
 		gameObject["__MouseJointListener"] = this;
-
+        
 		/* START-USER-CTR-CODE */
 		this.gameObject.scene.events.once("scene-awake", this.createListeners, this);
 		this.storedFilterData = null
-
+        this.ignoredPairs = new Set();
+        
 		/* END-USER-CTR-CODE */
 	}
 
 	/** @returns {MouseJointListener} */
 	static getComponent(gameObject) {
-		return gameObject["__MouseJointListener"];
+        return gameObject["__MouseJointListener"];
 	}
-
-
+    
+    
 	/* START-USER-CODE */
 	createListeners() {
-		this.gameObject.scene.input.on("pointerdown", this.createMouseListener, this.gameObject)
+        this.gameObject.scene.input.on("pointerdown", this.createMouseListener, this.gameObject)
+        
+        
 	}
 
 	createMouseListener() {
 
-		// b2Body_Disable(this.body)
-		this.storedFilterData = b2Shape_GetFilter(this.shape)
+        this.storedFilterData = b2Shape_GetFilter(this.shape)
+        this.storedBodyCoords = b2Body_GetTransform(this.body)
+        console.log(b2Shape_GetFilter(this.shape))
+        
+        
+        var newfilter = this.storedFilterData
+        newfilter.maskBits -= 2 // xor with puffle collision category 4294967295 4294967293
+        b2Shape_SetFilter(this.shape, newfilter)
+        // b2Body_SetTransform(this.body, new b2Vec2(0,0), this.storedBodyCoords.q)
+        WorldStep({ worldId: this.scene.worldId, deltaTime: 1/600 });
+        b2Body_SetTransform(this.body, this.storedBodyCoords.p, this.storedBodyCoords.q)
+        // WorldStep({ worldId: this.scene.worldId, deltaTime: 1/60 });
 		// b2Body_Enable(this.body)
-		_loc2_ = new b2FilterData();
-		_loc2_.maskBits = ~Simulation.CATEGORY_DYNAMIC;
-		_loc2_.categoryBits = this.__storedFilterData.categoryBits;
-		this.__targetFixture.SetFilterData(_loc2_);
-		this.__targetFixture.GetBody().SetActive(true);
+        // this.scene.events.once(Phaser.Scenes.Events.PRE_UPDATE, () => {
+        //     // b2Body_SetAwake(this.body, false)
+        //     // b2Body_SetAwake(this.body, true)
+        //     // b2Body_Disable(this.body)    
+        //     // b2Body_Enable(this.body)
+        //     // newfilter.groupIndex = -
+        //     // b2Body_SetTransform(this.body, this.storedBodyCoords.p, this.storedBodyCoords.q)
+        //     console.log(b2Body_GetShapeCount(this.body))
+        //     // b2Shape_SetFilter(this.shape, newfilter)
+        //     // console.log(b2Shape_GetFilter(this.shape))
+        //     const pufId = this.scene.puffle.shape
+        //     b2World_SetCustomFilterCallback(
+        //         this.scene.worldId,
+        //         (shapeA, shapeB) => {
+        //             return !((shapeA.index1 == pufId.index1 && shapeB.index1 == this.shape.index1) || (shapeB.index1 == pufId.index1 && shapeA.index1 == this.shape.index1)) 
+        //             // return !ignoredPairs.has(getPairKey(shapeA, shapeB));
+        //         },
+        //         null
+        //     );
+
+            
+        //     // newfilter.maskBits -= 0x0002 // xor with puffle collision category
+        // });
+
+        // _loc2_ = new b2FilterData();
+		// _loc2_.maskBits = ~Simulation.CATEGORY_DYNAMIC;
+		// _loc2_.categoryBits = this.__storedFilterData.categoryBits;
+		// this.__targetFixture.SetFilterData(_loc2_);
+		// // this.__targetFixture.GetBody().SetActive(true);
 		console.log("mouse down")
 	}
+
+
+    getPairKey(a, b) {
+        return [a.index1, b.index1].sort().join("_");
+    }
 
 	// Write your code here.
  

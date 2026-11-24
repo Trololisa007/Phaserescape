@@ -13,6 +13,7 @@
         "borderWidth": 1520,
         "borderHeight": 960,
         "box2dGenerateWorldCode": true,
+        "box2dSceneGenerateDebugCode": true,
         "box2dWorld_scale": 65,
         "box2dWorld_contactHertz": 60,
         "box2dWorld_contactDampingRatio": 0,
@@ -366,8 +367,8 @@
                 "y"
             ],
             "label": "rampMid",
-            "x": 558,
-            "y": 809
+            "x": 320,
+            "y": 240
         },
         {
             "type": "Image",
@@ -402,6 +403,7 @@
                 "scale"
             ],
             "label": "puffle",
+            "scope": "CLASS",
             "scale": 0.8,
             "x": 112,
             "y": 174

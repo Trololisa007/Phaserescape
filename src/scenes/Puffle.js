@@ -56,10 +56,11 @@ export default class Puffle extends Phaser.GameObjects.Image {
 			filter: { 
 				categoryBits: 2, 
 				maskBits: 4294967295, 
-				groupIndex: 0
+				groupIndex: -1
 			}
 		}, new b2Circle(new b2Vec2(pxm(0), pxm(0)), pxm(64.5)));
 
+		this.shape = shape;
 		this.ball = ball;
 
 		/* START-USER-CTR-CODE */
@@ -83,6 +84,8 @@ export default class Puffle extends Phaser.GameObjects.Image {
 		/* END-USER-CTR-CODE */
 	}
 
+	/** @type {b2ShapeId} */
+	shape;
 	/** @type {b2BodyId} */
 	ball;
 	/** @type {number} */
