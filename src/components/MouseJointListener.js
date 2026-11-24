@@ -4,7 +4,7 @@
 /* START OF COMPILED CODE */
 
 /* START-USER-IMPORTS */
-import { b2Body_Disable, b2Body_Enable, b2Body_GetPosition, b2Body_GetShapeCount, b2Body_GetShapes, b2Body_GetTransform, b2Body_SetAwake, b2Body_SetTransform, b2BodyId, b2MakeBox, b2Shape_GetFilter, b2Shape_SetFilter, b2ShapeId, b2World_SetCustomFilterCallback, WorldStep, b2Vec2 } from "../box2d/PhaserBox2D.js";
+import { b2Body_Disable, b2Body_Enable, b2Body_GetPosition, b2Body_GetShapeCount, b2Body_GetShapes, b2Body_GetTransform, b2Body_SetAwake, b2Body_SetTransform, b2BodyId, b2MakeBox, b2Shape_GetFilter, b2Shape_SetFilter, b2ShapeId, b2World_SetCustomFilterCallback, WorldStep, b2Vec2, b2Body_SetAngularVelocity, b2Body_GetAngularVelocity } from "../box2d/PhaserBox2D.js";
 
 /* END-USER-IMPORTS */
 
@@ -40,39 +40,24 @@ export default class MouseJointListener {
         this.storedFilterData = b2Shape_GetFilter(this.shape)
         this.storedBodyCoords = b2Body_GetTransform(this.body)
         console.log(b2Shape_GetFilter(this.shape))
+        const pos = b2Body_GetPosition(this.body)
+        const puffle = this.scene.puffle.ball
+        const ball_pos = b2Body_GetPosition(puffle)
+        // const ballW = b2Body_GetAngularVelocity(puffle)
         
         
         var newfilter = this.storedFilterData
         newfilter.maskBits -= 2 // xor with puffle collision category 4294967295 4294967293
         b2Shape_SetFilter(this.shape, newfilter)
-        // b2Body_SetTransform(this.body, new b2Vec2(0,0), this.storedBodyCoords.q)
-        WorldStep({ worldId: this.scene.worldId, deltaTime: 1/600 });
-        b2Body_SetTransform(this.body, this.storedBodyCoords.p, this.storedBodyCoords.q)
-        // WorldStep({ worldId: this.scene.worldId, deltaTime: 1/60 });
-		// b2Body_Enable(this.body)
-        // this.scene.events.once(Phaser.Scenes.Events.PRE_UPDATE, () => {
-        //     // b2Body_SetAwake(this.body, false)
-        //     // b2Body_SetAwake(this.body, true)
-        //     // b2Body_Disable(this.body)    
-        //     // b2Body_Enable(this.body)
-        //     // newfilter.groupIndex = -
-        //     // b2Body_SetTransform(this.body, this.storedBodyCoords.p, this.storedBodyCoords.q)
-        //     console.log(b2Body_GetShapeCount(this.body))
-        //     // b2Shape_SetFilter(this.shape, newfilter)
-        //     // console.log(b2Shape_GetFilter(this.shape))
-        //     const pufId = this.scene.puffle.shape
-        //     b2World_SetCustomFilterCallback(
-        //         this.scene.worldId,
-        //         (shapeA, shapeB) => {
-        //             return !((shapeA.index1 == pufId.index1 && shapeB.index1 == this.shape.index1) || (shapeB.index1 == pufId.index1 && shapeA.index1 == this.shape.index1)) 
-        //             // return !ignoredPairs.has(getPairKey(shapeA, shapeB));
-        //         },
-        //         null
-        //     );
+        b2Body_SetTransform(this.body, new b2Vec2(0,0), this.storedBodyCoords.q)
+        WorldStep({ worldId: this.scene.worldId, deltaTime: 1 });
+        // b2Body_SetTransform(this.body, this.storedBodyCoords.p, this.storedBodyCoords.q)
+        console.log(this.storedBodyCoords)
 
-            
-        //     // newfilter.maskBits -= 0x0002 // xor with puffle collision category
-        // });
+        // restore ball and object posititon
+        b2Body_SetTransform(this.body, new b2Vec2(pos.x,pos.y), this.storedBodyCoords.q)
+        b2Body_SetTransform(puffle, new b2Vec2(ball_pos.x, ball_pos.y))
+        // b2Body_SetAngularVelocity(puffle, ballW)
 
         // _loc2_ = new b2FilterData();
 		// _loc2_.maskBits = ~Simulation.CATEGORY_DYNAMIC;
